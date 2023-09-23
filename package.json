@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "juandesign",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,7 +10,10 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "nuxt": "^3.7.3"
+    "@nuxt/devtools": "latest"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.8.1",
+    "sass": "^1.68.0"
   }
 }
