@@ -31,6 +31,28 @@
   }
 }
 
+@media (min-width: 1400px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1200px;
+  }
+}
+
+.desk {
+  display: block;
+  @include lg {
+    display: none !important;
+  }
+}
+
+.mobile {
+  display: none;
+  @include lg {
+    display: block !important;
+    &.d-flex {
+      display: flex !important;
+    }
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -44,14 +66,14 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 237px 0 0 0;
   font-family: 'NotoSerifTC';
   color: $color-text;
   background-color: $color-bg;
   font-size: 16px;
-
-  &.overflow-hidden {
-    overflow: hidden;
+  letter-spacing: 2px;
+  @include lg() {
+    padding: 74px 0 0 0;
   }
 }
 
@@ -101,9 +123,9 @@ img {
 }
 
 
-@include xl() {
+@include lg() {
   .h1, h1 {
-    font-size: 28px;
+    font-size: 24px;
   }
   .h2, h2 {
     font-size: 20px;
@@ -115,7 +137,7 @@ img {
     font-size: 16px;
   }
   .h5, h5 {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
@@ -137,16 +159,12 @@ hr.dash {
   background-size: 10px 1px;
 }
 
-.btn-check:focus + .btn, .btn:focus {
-  outline: 0;
-  box-shadow: 0 0 0 0;
+main {
+  position: relative;
+  width: 100vw;
+  height: 100%;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  font-weight: 500;
-  line-height: 1.5;
-}
 
 header {
   position: fixed;
@@ -156,31 +174,13 @@ header {
   background-color: transparent;
   z-index: 10;
 
-  @include lg {
-    //position: fixed;
-
-    //z-index: 99;
-    //+ .top-space {
-    //  margin-top: 0;
-    //}
-    //&.active {
-    //  padding-left: 24px;
-    //  background-color: #efece9;
-    //  transition-delay: 5s;
-    //  transition: 1s;
-    //  z-index: 999;
-    //}
-  }
-
   nav {
-    max-width: 1400px;
+    background-color: $color-bg;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    //margin: 0 auto;
-
-    padding: 24px 0;
+    padding-top: 24px;
     z-index: 99;
 
     @include lg {
@@ -200,6 +200,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 24px;
     @include lg {
       padding: 0;
       margin-bottom: 0;
@@ -242,7 +243,7 @@ header {
       align-items: center;
       justify-content: center;
       width: 100%;
-      height: 64px;
+      height: 100px;
       background-color: $color-primary;
       @include lg() {
         display: none;
@@ -256,7 +257,7 @@ header {
             font-size: 16px;
             color: $color-white;
             letter-spacing: 2px;
-            padding: 0 10px;
+            padding: 0 16px;
             transition: .3s;
 
             &:hover {
@@ -268,12 +269,6 @@ header {
               color: $color-text;
             }
           }
-
-          //&.active, &.current {
-          //  > a {
-          //    opacity: 1;
-          //  }
-          //}
 
           &.disable {
             > a {

@@ -2,7 +2,7 @@
   <div>
     <TheHeader/>
 
-    <NuxtLayout class="main">
+    <NuxtLayout>
       <NuxtPage></NuxtPage>
     </NuxtLayout>
 

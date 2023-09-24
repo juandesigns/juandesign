@@ -1,9 +1,10 @@
 <template>
-  <div>
-    <h1>This is about page</h1>
-    <NuxtLink to="/">To home page</NuxtLink>
+  <main class="index">
+    <section class="banner-block">
+   service
+    </section>
     <TheContact/>
-  </div>
+  </main>
 </template>
 
 <script setup>
