@@ -5,45 +5,52 @@ $ml: 992px;
 $md: 767px;
 $sm: 576px;
 $xs: 360px;
-@mixin xxl(){
-	@media screen and (max-width: $xxl){
-		@content;
-	}
+@mixin xxl() {
+  @media screen and (max-width: $xxl) {
+    @content;
+  }
 }
-@mixin xl(){
-	@media screen and (max-width: $xl){
-		@content;
-	}
+
+@mixin xl() {
+  @media screen and (max-width: $xl) {
+    @content;
+  }
 }
-@mixin lg(){
-	@media screen and (max-width: $lg){
-		@content;
-	}
+
+@mixin lg() {
+  @media screen and (max-width: $lg) {
+    @content;
+  }
 }
-@mixin ml(){
-	@media screen and (max-width: $ml){
-		@content;
-	}
+
+@mixin ml() {
+  @media screen and (max-width: $ml) {
+    @content;
+  }
 }
-@mixin md(){
-	@media screen and (max-width: $md){
-		@content;
-	}
+
+@mixin md() {
+  @media screen and (max-width: $md) {
+    @content;
+  }
 }
-@mixin sm(){
-	@media screen and (max-width: $sm){
-		@content;
-	}
+
+@mixin sm() {
+  @media screen and (max-width: $sm) {
+    @content;
+  }
 }
-@mixin xs(){
-	@media screen and (max-width: $xs){
-		@content;
-	}
+
+@mixin xs() {
+  @media screen and (max-width: $xs) {
+    @content;
+  }
 }
+
 @mixin word-count($num) {
-  display:-webkit-box;
-  overflow:hidden;
-  text-overflow:ellipsis;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
   -webkit-line-clamp: $num; // 想顯示的行數
   -webkit-box-orient: vertical;
 }
@@ -78,7 +85,7 @@ $xs: 360px;
       // width: 15px;
       // height: 15px;
     }
-  }  
+  }
 }
 
 @mixin gradient($direction, $list, $bg) {
@@ -87,7 +94,7 @@ $xs: 360px;
     background: -webkit-linear-gradient($direction, $list);
     background: -moz-linear-gradient($direction, $list);
     background: -o-linear-gradient($direction, $list);
-    background: linear-gradient($direction, $list); 
+    background: linear-gradient($direction, $list);
   } @else {
     content: '';
     display: block;
@@ -95,13 +102,13 @@ $xs: 360px;
     height: 1px;
     left: 0;
     bottom: 0;
-    position: absolute; 
+    position: absolute;
     background: -webkit-linear-gradient($direction, $list);
     background: -moz-linear-gradient($direction, $list);
     background: -o-linear-gradient($direction, $list);
-    background: linear-gradient($direction, $list); 
+    background: linear-gradient($direction, $list);
   }
-  
+
 }
 
 @mixin bg-img($url) {

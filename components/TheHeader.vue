@@ -1,13 +1,84 @@
 <template>
-<div>header</div>
+<!--  <header>-->
+<!--    <div class="container flex flex-col justify-center items-center">-->
+<!--      <img width="121" src="../assets/img/img-logo.svg">-->
+<!--      <div class="flex justify-center">-->
+<!--        <NuxtLink class="h4" to="/">服務項目</NuxtLink>-->
+<!--        <NuxtLink class="h4" to="/">服務項目</NuxtLink>-->
+<!--        <NuxtLink class="h4" to="/">服務項目</NuxtLink>-->
+<!--        <NuxtLink class="h4" to="/">服務項目</NuxtLink>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </header>-->
+  <header>
+    <nav>
+      <NuxtLink class="logo" to="/">
+        <img width="121" src="../assets/img/img-logo.svg" alt="JuanDesign">
+      </NuxtLink>
+
+      <div class="menu-warp desk">
+        <ul class="menu-list">
+          <li class="item">
+            <MyNuxtLink class="h4" to="/service">服務項目</MyNuxtLink>
+          </li>
+          <li class="item">
+            <MyNuxtLink class="h4" to="/case">相關案例</MyNuxtLink>
+          </li>
+          <li class="item">
+            <MyNuxtLink class="h4" to="/question">常見問題</MyNuxtLink>
+          </li>
+          <li class="item">
+            <MyNuxtLink class="h4" to="/contact">聯絡我們</MyNuxtLink>
+          </li>
+        </ul>
+      </div>
+      <div class="menu-warp mobile" :class="{ active : isMenuOpen }">
+        <div class="mobile-btn" @click="isMenuOpen = !isMenuOpen">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-list-warp">
+          <ul class="menu-list">
+            <div class="flex w-100">
+              <li class="item flex col-6">
+                <img src="./assets/img/icon/i_line.svg"/>
+                <a href="https://page.line.me/258vnuny?openQrModal=true">Line@</a>
+              </li>
+              <li class="item flex col-6">
+                <img src="./assets/img/icon/i_line.svg"/>
+                <a href="https://page.line.me/258vnuny?openQrModal=true">Instagram</a>
+              </li>
+            </div>
+            <li class="item">
+              <MyNuxtLink class="h4" to="/">首頁</MyNuxtLink>
+            </li>
+            <li class="item">
+              <MyNuxtLink class="h4" to="/service">服務項目</MyNuxtLink>
+            </li>
+            <li class="item">
+              <MyNuxtLink class="h4" to="/case">相關案例</MyNuxtLink>
+            </li>
+            <li class="item">
+              <MyNuxtLink class="h4" to="/question">常見問題</MyNuxtLink>
+            </li>
+            <li class="item">
+              <MyNuxtLink class="h4" to="/contact">聯絡我們</MyNuxtLink>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 </template>
 
-<script>
-export default {
-  name: "TheHeader.vue"
-}
+<script setup lang="ts">
+const isMenuOpen = ref(false)
 </script>
 
-<style scoped>
+<style scoped type="text/scss">
+header{
+  position: fixed;
+}
 
 </style>
