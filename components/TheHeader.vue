@@ -42,11 +42,11 @@
           <ul class="menu-list">
             <div class="flex w-100">
               <li class="item flex col-6">
-                <img src="./assets/img/icon/i_line.svg"/>
+<!--                <img src="./assets/img/icon/i_line.svg"/>-->
                 <a href="https://page.line.me/258vnuny?openQrModal=true">Line@</a>
               </li>
               <li class="item flex col-6">
-                <img src="./assets/img/icon/i_line.svg"/>
+<!--                <img src="./assets/img/icon/i_line.svg"/>-->
                 <a href="https://page.line.me/258vnuny?openQrModal=true">Instagram</a>
               </li>
             </div>
