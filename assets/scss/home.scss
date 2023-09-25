@@ -12,8 +12,11 @@
   background-position: center top;
   background-repeat: no-repeat;
   @include lg() {
-    background-attachment: fixed;
+    //background-attachment: fixed;
     background-position: center 60px;
+    height: 600px;
+    //height: calc(100vh - 300px);
+    overflow: auto;
   }
 
   .container {
@@ -24,6 +27,16 @@
     padding-top: 120px;
     @include xl() {
       padding: 240px 24px 0 24px;
+      height: 1280px;
+      transform-style: preserve-3d;
+      position: relative;
+    }
+
+    .iphone {
+      position: absolute;
+      top: 240px;
+      right: 0;
+      transform: translate3D(-50%, -120px, -1px) scale(1);
     }
 
     h1 {
@@ -44,6 +57,7 @@
         line-height: 36px;
       }
     }
+
   }
 }
 

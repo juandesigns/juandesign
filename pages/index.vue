@@ -3,6 +3,7 @@
     <main>
       <section class="banner-block flex justify-center">
         <div class="container">
+          <div class="iphone">
           <h1>打造你的專屬網站<br/>準時交件 <br class="mobile"/>價格優惠 <br class="mobile"/>用心負責</h1>
 
           <p class="h5">
@@ -11,6 +12,7 @@
             工程師能支持前後端技術，<br class="mobile"/>開發品質高，容易擴充及維護！<br/>
             希望能有機會可以合作！<br class="mobile"/>若有任何疑問都歡迎再討論！
           </p>
+          </div>
         </div>
       </section>
       <TheContact/>
