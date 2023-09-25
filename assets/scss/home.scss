@@ -12,10 +12,8 @@
   background-position: center top;
   background-repeat: no-repeat;
   @include lg() {
-    //background-attachment: fixed;
-    background-position: center 60px;
+
     height: 600px;
-    //height: calc(100vh - 300px);
     overflow: auto;
   }
 
@@ -32,13 +30,6 @@
       position: relative;
     }
 
-    .iphone {
-      position: absolute;
-      top: 240px;
-      right: 0;
-      transform: translate3D(-50%, -120px, -1px) scale(1);
-    }
-
     h1 {
       font-style: normal;
       font-weight: 500;
@@ -53,11 +44,99 @@
     .h5 {
       line-height: 60px;
       @include lg() {
-        //font-size: 14px;
         line-height: 36px;
       }
     }
 
+  }
+}
+
+.service-block {
+  padding: 120px 0;
+  box-shadow: inset 40vw 0 0 0 #B38F8A1A;
+  @include lg() {
+    padding: 80px 24px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .en-txt {
+    padding-top: 80px;
+    letter-spacing: 4px;
+  }
+}
+
+.img-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-bottom: 40px;
+
+  img {
+    margin-bottom: 40px;
+  }
+
+  .h3 {
+    font-weight: bold;
+    color: $color-title;
+    margin-bottom: 24px;
+  }
+
+  button {
+    color: $color-primary;
+    background-color: transparent;
+    box-shadow: transparent;
+    --tw-shadow: transparent;
+    transition-duration: .3s;
+
+    &:hover,
+    &:active {
+      color: $color-title;
+      background-color: transparent;
+      box-shadow: transparent;
+      --tw-shadow: transparent;
+      transform: translateX(10px);
+      transition: .3s;
+    }
+  }
+}
+
+.color-text {
+  color: $color-text;
+}
+
+.title-tag {
+  font-weight: 700;
+  position: absolute;
+  bottom: 36px;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  padding: 4px 24px;
+  background: $color-tag;
+  color: $color-title;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  @include lg() {
+    padding: 4px 12px;
+  }
+}
+
+.en-txt {
+  color: $color-primary;
+  font-family: Caudex;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  opacity: .5;
+  @include lg() {
+    font-size: 48px;
   }
 }
 

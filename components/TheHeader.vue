@@ -1,15 +1,5 @@
 <template>
-<!--  <header>-->
-<!--    <div class="container flex flex-col justify-center items-center">-->
-<!--      <img width="121" src="../assets/img/img-logo.svg">-->
-<!--      <div class="flex justify-center">-->
-<!--        <NuxtLink class="h4" to="/">服務項目</NuxtLink>-->
-<!--        <NuxtLink class="h4" to="/">服務項目</NuxtLink>-->
-<!--        <NuxtLink class="h4" to="/">服務項目</NuxtLink>-->
-<!--        <NuxtLink class="h4" to="/">服務項目</NuxtLink>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </header>-->
+
   <header>
     <nav>
       <NuxtLink class="logo" to="/">
@@ -76,9 +66,6 @@
 const isMenuOpen = ref(false)
 </script>
 
-<style scoped type="text/scss">
-header{
-  position: fixed;
-}
+<style scoped>
 
 </style>

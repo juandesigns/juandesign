@@ -53,6 +53,7 @@
     }
   }
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -66,15 +67,12 @@ html {
 
 body {
   margin: 0;
-  padding: 237px 0 0 0;
+  padding: 0;
   font-family: 'NotoSerifTC';
   color: $color-text;
   background-color: $color-bg;
   font-size: 16px;
   letter-spacing: 2px;
-  @include lg() {
-    padding: 74px 0 0 0;
-  }
 }
 
 ul, ol {
@@ -97,7 +95,7 @@ img {
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
+  //margin-top: 0;
   font-weight: 500;
   line-height: 1.5;
 }
@@ -141,6 +139,14 @@ img {
   }
 }
 
+.w-30 {
+  width: 30%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
 .hr {
   border-bottom: 1px solid #707070;
 }
@@ -167,7 +173,7 @@ main {
 
 
 header {
-  position: fixed;
+  position: relative;
   width: 100%;
   top: 0;
   transition: 1s;
