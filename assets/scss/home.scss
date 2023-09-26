@@ -12,9 +12,8 @@
   background-position: center top;
   background-repeat: no-repeat;
   @include lg() {
-
-    height: 600px;
-    overflow: auto;
+    height: 720px;
+    background-position: center;
   }
 
   .container {
@@ -23,21 +22,20 @@
     text-align: center;
     align-items: end;
     padding-top: 120px;
-    @include xl() {
-      padding: 240px 24px 0 24px;
-      height: 1280px;
-      transform-style: preserve-3d;
-      position: relative;
+    @include lg() {
+      padding: 80px 24px 0 24px;
     }
 
     h1 {
       font-style: normal;
-      font-weight: 500;
+      font-weight: bold;
       line-height: 84px;
       color: $color-title;
       padding-bottom: 120px;
       @include lg() {
-        line-height: 60px;
+        padding-bottom: 80px;
+        line-height: 48px;
+        text-align: right;
       }
     }
 
@@ -86,15 +84,15 @@
   }
 
   button {
-    color: $color-primary;
-    background-color: transparent;
-    box-shadow: transparent;
-    --tw-shadow: transparent;
+    color: $color-primary!important;
+    background-color: transparent!important;
+    box-shadow: transparent!important;
+    --tw-shadow: transparent!important;
     transition-duration: .3s;
 
     &:hover,
     &:active {
-      color: $color-title;
+      color: $color-title!important;
       background-color: transparent;
       box-shadow: transparent;
       --tw-shadow: transparent;
@@ -114,6 +112,7 @@
   bottom: 36px;
   width: auto;
   height: auto;
+  text-align: center;
   line-height: normal;
   letter-spacing: 2.4px;
   padding: 4px 24px;
@@ -121,7 +120,10 @@
   color: $color-title;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   @include lg() {
-    padding: 4px 12px;
+    padding: 4px 6px;
+    font-size: 18px;
+    bottom: 16px;
+    letter-spacing: 1.6px;
   }
 }
 
