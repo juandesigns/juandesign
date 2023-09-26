@@ -101,8 +101,15 @@
   </div>
 </template>
 
-<script setup>
-
+<script setup lang="ts">
+useSeoMeta({
+  title: 'JuanDesign|打造屬於你的網站',
+  ogTitle: 'JuanDesign|打造屬於你的網站',
+  description: 'JuanDesign|打造屬於你的網站',
+  ogDescription: 'JuanDesign 打造屬於你的網站，屬於你獨一無二的品牌',
+  ogImage: '../assets/img/img-logo.svg',
+  twitterCard: 'summary_large_image',
+})
 </script>
 
 <style scoped>
