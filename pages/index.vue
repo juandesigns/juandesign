@@ -107,7 +107,7 @@ useSeoMeta({
   ogTitle: 'JuanDesign|打造屬於你的網站',
   description: '提供高質感網站設計，擁有多元化客製方案，打造屬於你的網站，樹立獨一無二的品牌',
   ogDescription: '提供高質感網站設計，擁有多元化客製方案，打造屬於你的網站，樹立獨一無二的品牌',
-  ogImage: '../assets/img/img-logo.svg',
+  ogImage: 'https://lurl.cc/NNKlV',
   // twitterCard: 'summary_large_image',
 })
 </script>
