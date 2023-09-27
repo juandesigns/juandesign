@@ -14,7 +14,4 @@
   </div>
 </template>
 <style>
-.main{
-  padding: 80px;
-}
 </style>

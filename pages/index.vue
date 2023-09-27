@@ -103,10 +103,10 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'JuanDesign|打造屬於你的網站',
+  title: 'JuanDesign',
   ogTitle: 'JuanDesign|打造屬於你的網站',
-  description: 'JuanDesign|打造屬於你的網站',
-  ogDescription: 'JuanDesign 打造屬於你的網站，屬於你獨一無二的品牌',
+  description: '提供高質感網站設計，擁有多元化客製方案，打造屬於你的網站，樹立獨一無二的品牌',
+  ogDescription: '提供高質感網站設計，擁有多元化客製方案，打造屬於你的網站，樹立獨一無二的品牌',
   ogImage: '../assets/img/img-logo.svg',
   // twitterCard: 'summary_large_image',
 })
