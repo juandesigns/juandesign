@@ -94,30 +94,97 @@
           </div>
         </div>
       </section>
-      <Swiper
-          :modules="[SwiperAutoplay, SwiperEffectCreative]"
-          :breakpoints="swiperOptions.breakpoints"
-          :slides-per-view="4"
-          :loop="true"
-          :effect="'creative'"
-          :autoplay="{
-      delay: 8000,
-      disableOnInteraction: true,
-    }"
-          :creative-effect="{
-      prev: {
-        shadow: false,
-        translate: ['-20%', 0, -1],
-      },
-      next: {
-        translate: ['100%', 0, 0],
-      },
-    }"
-      >
-        <SwiperSlide v-for="i in 5" :key="i">
-          <strong><img :src="`https://picsum.photos/200/100?random=${i}`"/></strong>
-        </SwiperSlide>
-      </Swiper>
+      <section class="process-block flex flex-col items-center">
+        <div class="container flex flex-col">
+          <div class="flex flex-col items-center">
+            <div class="flex justify-center relative">
+              <img width="138" src="../assets/img/img-title-process.png">
+              <span class="h2 title-tag whitespace-nowrap">服務流程</span>
+            </div>
+            <p class="en-txt">PROCESS</p>
+          </div>
+          <swiper-container
+              class="swiper-index"
+              loop="true"
+              pagination="true"
+              :slides-per-view="7"
+              :centered-slides="false"
+              :breakpoints="{
+              1200: {
+              slidesPerView: 7,
+            },
+             768: {
+              slidesPerView: 4,
+            },
+            390: {
+              slidesPerView: 1,
+            },
+             320: {
+              slidesPerView: 1,
+            },
+          }"
+              @progress="onProgress"
+              @slidechange="onSlideChange"
+          >
+            <swiper-slide>
+              <div class="process-item">
+                <p class="text-center h3">1.<br/>需求討論</p>
+                <div class="process-item-icon">
+                  <img src="../assets/img/icon/icon-step-1.svg">
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="process-item">
+                <p class="text-center h3">2.<br/>提供報價</p>
+                <div class="process-item-icon">
+                  <img src="../assets/img/icon/icon-step-2.svg">
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="process-item">
+                <p class="text-center h3">3.<br/>簽訂合約</p>
+                <div class="process-item-icon">
+                  <img src="../assets/img/icon/icon-step-3.svg">
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="process-item">
+                <p class="text-center h3">4.<br/>預收訂金</p>
+                <div class="process-item-icon">
+                  <img src="../assets/img/icon/icon-step-4.svg">
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="process-item">
+                <p class="text-center h3">5.<br/>驗收修正</p>
+                <div class="process-item-icon">
+                  <img src="../assets/img/icon/icon-step-5.svg">
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="process-item">
+                <p class="text-center h3">6.<br/>完成交付</p>
+                <div class="process-item-icon">
+                  <img src="../assets/img/icon/icon-step-6.svg">
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="process-item">
+                <p class="text-center h3">7.<br/>收取尾款</p>
+                <div class="process-item-icon">
+                  <img src="../assets/img/icon/icon-step-7.svg">
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+      </section>
 
 
     </main>
@@ -127,6 +194,20 @@
 </template>
 
 <script setup lang="ts">
+import {register} from 'swiper/element/bundle';
+
+register();
+
+const spaceBetween = 10;
+const onProgress = (e) => {
+  const [swiper, progress] = e.detail;
+  console.log(progress)
+};
+
+const onSlideChange = (e) => {
+  console.log('slide changed')
+}
+
 
 useSeoMeta({
   title: 'JuanDesign',
@@ -141,5 +222,19 @@ useSeoMeta({
 </script>
 
 <style scoped>
+
+swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-container {
+  padding: 40px 0;
+}
+
+swiper-container::part(bullet-active) {
+  background-color: #B38F8AFF;
+}
 
 </style>

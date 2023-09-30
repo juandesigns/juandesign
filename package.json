@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@nuxt/ui": "^2.8.1",
-    "nuxt-swiper": "^1.2.2",
-    "sass": "^1.68.0"
+    "sass": "^1.68.0",
+    "swiper": "^10.3.1"
   }
 }
