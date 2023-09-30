@@ -1,6 +1,5 @@
 @import 'variable';
 @import 'mixin';
-
 //NotoSerifTC
 @font-face {
   font-family: 'NotoSerifTC';
@@ -8,14 +7,18 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  @font-face {
-    src: url('../../public/font/NotoSerifTC-Bold.otf') format('woff');
-    font-weight: bold;
-  }
-  @font-face {
-    src: url('../../public/font/NotoSerifTC-Medium.otf') format('woff');
-    font-weight: 500;
-  }
+}
+
+@font-face {
+  font-family: 'NotoSerifTC';
+  src: url('../../public/font/NotoSerifTC-Bold.otf') format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'NotoSerifTC';
+  src: url('../../public/font/NotoSerifTC-Medium.otf') format('woff');
+  font-weight: 500;
 }
 
 //Caudex
@@ -262,7 +265,7 @@ header {
           > a {
             font-size: 16px;
             color: $color-white;
-            letter-spacing: 2px;
+            letter-spacing: 4px;
             padding: 0 16px;
             transition: .3s;
 

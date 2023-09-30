@@ -155,7 +155,10 @@
   background-color: $color-bg;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.10);
   color: $color-title;
-  font-weight: bold;
+
+  .h3 {
+    font-weight: bold;
+  }
 
   @include md() {
     width: 160px;
