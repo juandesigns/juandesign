@@ -28,10 +28,12 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  @font-face {
-    src: url('../../public/font/Caudex-Bold.ttf') format('woff');
-    font-weight: bold;
-  }
+}
+
+@font-face {
+  font-family: 'Caudex';
+  src: url('../../public/font/Caudex-Bold.ttf') format('woff');
+  font-weight: bold;
 }
 
 @media (min-width: 1400px) {
@@ -55,6 +57,33 @@
       display: flex !important;
     }
   }
+}
+
+//*-------- scrollbar --------*//
+//
+//body::-webkit-scrollbar {
+//  width: 5px;
+//}
+//
+//body::-webkit-scrollbar-track {
+//  background-color: $color-primary;
+//}
+//
+//body::-webkit-scrollbar-thumb {
+//  background-color: $color-primary;
+//  border-radius: 5px;
+//}
+//
+//body::-webkit-scrollbar-thumb:hover {
+//  background: $color-title;
+//}
+
+//*-------- selection --------*//
+
+::selection {
+  background-color: $color-primary!important;
+  color: $color-white;
+  // text-shadow: none;
 }
 
 * {

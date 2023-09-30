@@ -113,8 +113,9 @@
               1200: {
               slidesPerView: 7,
             },
+
              768: {
-              slidesPerView: 4,
+              slidesPerView: 5,
             },
             390: {
               slidesPerView: 1,
