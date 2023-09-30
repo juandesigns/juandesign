@@ -94,7 +94,32 @@
           </div>
         </div>
       </section>
-      <TheContact/>
+      <Swiper
+          :modules="[SwiperAutoplay, SwiperEffectCreative]"
+          :breakpoints="swiperOptions.breakpoints"
+          :slides-per-view="4"
+          :loop="true"
+          :effect="'creative'"
+          :autoplay="{
+      delay: 8000,
+      disableOnInteraction: true,
+    }"
+          :creative-effect="{
+      prev: {
+        shadow: false,
+        translate: ['-20%', 0, -1],
+      },
+      next: {
+        translate: ['100%', 0, 0],
+      },
+    }"
+      >
+        <SwiperSlide v-for="i in 5" :key="i">
+          <strong><img :src="`https://picsum.photos/200/100?random=${i}`"/></strong>
+        </SwiperSlide>
+      </Swiper>
+
+
     </main>
     <NuxtLink to="/service">To service page</NuxtLink>
 
@@ -102,6 +127,7 @@
 </template>
 
 <script setup lang="ts">
+
 useSeoMeta({
   title: 'JuanDesign',
   ogTitle: 'JuanDesign|打造屬於你的網站',
@@ -110,6 +136,8 @@ useSeoMeta({
   ogImage: 'https://lurl.cc/NNKlV',
   // twitterCard: 'summary_large_image',
 })
+
+
 </script>
 
 <style scoped>
