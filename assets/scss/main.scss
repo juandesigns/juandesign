@@ -616,6 +616,10 @@ header {
 
 
 footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-color: $color-primary;
   color: $color-bg;
   position: relative;
@@ -634,11 +638,9 @@ footer {
     justify-content: space-between;
     padding: 40px 0;
     @include lg {
+      padding: 40px 24px;
       flex-direction: column;
       align-items: start;
-    }
-    @include sm {
-      padding: 20% 5% 0 5%;
     }
 
     > div {
@@ -648,7 +650,7 @@ footer {
       font-size: 16px;
       line-height: 28px;
       margin-right: 30px;
-      max-width: 640px;
+      max-width: 400px;
       word-break: break-all;
 
       &:first-child {
@@ -668,12 +670,6 @@ footer {
 
         h3 {
           text-align: center;
-        }
-
-        > img {
-          max-width: 200px;
-          min-width: 120px;
-          margin-bottom: 40px;
         }
       }
 
@@ -748,18 +744,11 @@ footer {
   }
 
   .footer-copyright {
-    font-size: 16px;
+    display: flex;
+    justify-content: center;
     position: relative;
-    padding: 24px 0;
+    padding: 16px 0;
     border-top: 1px solid;
-
-    &::after {
-    }
-
-    @include md {
-      padding: 24px 5%;
-      font-size: 14px;
-    }
-
+    width: 100vw;
   }
 }
