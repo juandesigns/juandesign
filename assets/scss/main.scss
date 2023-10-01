@@ -81,7 +81,7 @@
 //*-------- selection --------*//
 
 ::selection {
-  background-color: $color-primary!important;
+  background-color: $color-primary !important;
   color: $color-white;
   // text-shadow: none;
 }
@@ -155,6 +155,9 @@ img {
   font-size: 16px;
 }
 
+.font-bold {
+  font-weight: bold !important;
+}
 
 @include lg() {
   .h1, h1 {
@@ -614,7 +617,7 @@ header {
 
 footer {
   background-color: $color-primary;
-  color: $color-text;
+  color: $color-bg;
   position: relative;
   z-index: 3;
 
@@ -629,7 +632,7 @@ footer {
     display: flex;
     align-items: start;
     justify-content: space-between;
-    padding: 65px 0 55px;
+    padding: 40px 0;
     @include lg {
       flex-direction: column;
       align-items: start;
@@ -702,7 +705,8 @@ footer {
         min-width: 44px;
         min-height: 44px;
         margin-left: 40px;
-        background-color: $color-text;
+        margin-bottom: 40px;
+        background-color: $color-bg;
         border-radius: 100%;
 
         &:first-child {
@@ -723,28 +727,6 @@ footer {
       }
     }
 
-    //.info {
-    //  li {
-    //    margin-bottom: 20px;
-    //
-    //    &:last-of-type {
-    //      margin-bottom: 0px;
-    //    }
-    //
-    //    > p {
-    //      color: $color-text;
-    //      margin-top: 6px;
-    //    }
-    //  }
-    //
-    //  @include md {
-    //    li {
-    //      > p {
-    //        font-size: 14px;
-    //      }
-    //    }
-    //  }
-    //}
 
     .footer-menu {
       line-height: 1.6;
@@ -755,7 +737,7 @@ footer {
 
         a {
           font-size: 16px;
-          color: $color-text;
+          //color: $color-text;
 
           &:hover {
             opacity: 0.75;
@@ -765,40 +747,19 @@ footer {
     }
   }
 
-  //.footer-copyright {
-  //  color: $color-text;
-  //  font-size: 16px;
-  //  position: relative;
-  //  padding: 24px 0;
-  //
-  //  &::after {
-  //    $copyrightGradient: rgba($color-text, 100) 0%, rgba($color-text, 100) 100%;
-  //    @include gradient(left, $copyrightGradient, line);
-  //    top: 0;
-  //  }
-  //
-  //  @include md {
-  //    padding: 24px 5%;
-  //    font-size: 14px;
-  //
-  //    span {
-  //      display: none;
-  //    }
-  //    a {
-  //      display: block;
-  //    }
-  //  }
-  //
-  //  a {
-  //    color: $color-text;
-  //
-  //    &:hover {
-  //      opacity: 0.75;
-  //    }
-  //  }
-  //
-  //  span {
-  //    padding: 0 20px;
-  //  }
-  //}
+  .footer-copyright {
+    font-size: 16px;
+    position: relative;
+    padding: 24px 0;
+    border-top: 1px solid;
+
+    &::after {
+    }
+
+    @include md {
+      padding: 24px 5%;
+      font-size: 14px;
+    }
+
+  }
 }

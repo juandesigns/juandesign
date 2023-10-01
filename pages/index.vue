@@ -186,10 +186,101 @@
           </swiper-container>
         </div>
       </section>
+      <section class="case-block flex flex-col items-center">
+        <div class="container flex flex-col">
+          <div class="flex flex-row justify-between items-center">
+            <div class="flex justify-center relative">
+              <img width="125" src="../assets/img/img-title-case.png">
+              <span class="h2 title-tag whitespace-nowrap">近期案例</span>
+            </div>
+            <p class="en-txt text-right">RECENT<br/>CASE</p>
+          </div>
+          <swiper-container
+              class="swiper-index"
+              loop="true"
+              pagination="false"
+              :slides-per-view="4"
+              :breakpoints="{
+              1200: {
+              slidesPerView: 4,
+              },
 
-
+               768: {
+                slidesPerView: 3,
+              },
+              390: {
+                slidesPerView: 1,
+              },
+               320: {
+                slidesPerView: 1,
+              },
+          }">
+            <swiper-slide>
+              <div class="img-content">
+                <img src="../assets/img/img-service-01.png">
+                <p class="h3">網站建置</p>
+                <p>品牌形象網站</p>
+                <p>一頁式網站</p>
+                <div class="flex justify-end">
+                  <UButton label="More" class="h4">
+                    <template #trailing>
+                      <UIcon name="i-heroicons-arrow-right-20-solid"/>
+                    </template>
+                  </UButton>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="img-content">
+                <img src="../assets/img/img-service-01.png">
+                <p class="h3">網站建置</p>
+                <p>品牌形象網站</p>
+                <p>一頁式網站</p>
+                <div class="flex justify-end">
+                  <UButton label="More" class="h4">
+                    <template #trailing>
+                      <UIcon name="i-heroicons-arrow-right-20-solid"/>
+                    </template>
+                  </UButton>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="img-content">
+                <img src="../assets/img/img-service-01.png">
+                <p class="h3">網站建置</p>
+                <p>品牌形象網站</p>
+                <p>一頁式網站</p>
+                <div class="flex justify-end">
+                  <UButton label="More" class="h4">
+                    <template #trailing>
+                      <UIcon name="i-heroicons-arrow-right-20-solid"/>
+                    </template>
+                  </UButton>
+                </div>
+              </div>
+            </swiper-slide>
+            <swiper-slide>
+              <div class="img-content">
+                <img src="../assets/img/img-service-01.png">
+                <p class="h3">網站建置</p>
+                <p>品牌形象網站</p>
+                <p>一頁式網站</p>
+                <div class="flex justify-end">
+                  <UButton label="More" class="h4">
+                    <template #trailing>
+                      <UIcon name="i-heroicons-arrow-right-20-solid"/>
+                    </template>
+                  </UButton>
+                </div>
+              </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+      </section>
+      <TheContact/>
     </main>
-    <NuxtLink to="/service">To service page</NuxtLink>
+<!--    <NuxtLink to="/service">To service page</NuxtLink>-->
 
   </div>
 </template>
