@@ -28,6 +28,9 @@
           <h3 class="footer-title">服務地圖</h3>
           <ul class="footer-menu">
             <li class="item">
+              <MyNuxtLink class="h4" to="/">首頁</MyNuxtLink>
+            </li>
+            <li class="item">
               <MyNuxtLink class="h4" to="/service">服務項目</MyNuxtLink>
             </li>
             <li class="item">
