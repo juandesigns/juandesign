@@ -2,7 +2,6 @@
 @import 'mixin';
 
 //首頁
-
 .banner-block {
   display: flex;
   width: 100%;
@@ -45,6 +44,42 @@
       @include lg() {
         line-height: 36px;
       }
+    }
+
+  }
+}
+
+//banner
+.banner-block.banner-page {
+  height: 480px;
+  background-image: url("./assets/img/banner-page.jpg");
+  background-size: cover;
+  background-position: center top;
+  opacity: .8;
+  justify-content: center;
+  @include lg() {
+    height: 320px;
+  }
+
+  .container {
+    align-items: center;
+
+    h1 {
+      font-style: normal;
+      font-weight: bold;
+      line-height: 84px;
+      color: $color-text;
+      padding-bottom: 24px;
+      letter-spacing: 2px;
+      @include lg() {
+        padding-bottom: 40px;
+        line-height: 48px;
+        text-align: right;
+      }
+    }
+
+    .h3 {
+      letter-spacing: 8px;
     }
 
   }
@@ -172,22 +207,23 @@
     margin-bottom: 24px;
   }
 
+
   button {
     color: $color-primary !important;
     background-color: transparent !important;
     box-shadow: transparent !important;
     --tw-shadow: transparent !important;
     transition-duration: .3s;
+  }
 
-    &:hover,
-    &:active {
-      color: $color-title !important;
-      background-color: transparent;
-      box-shadow: transparent;
-      --tw-shadow: transparent;
-      transform: translateX(10px);
-      transition: .3s;
-    }
+  &:hover button,
+  &:active button {
+    color: $color-title !important;
+    background-color: transparent;
+    box-shadow: transparent;
+    --tw-shadow: transparent;
+    transform: translateX(10px);
+    transition: .3s;
   }
 }
 

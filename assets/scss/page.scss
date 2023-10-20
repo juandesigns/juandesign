@@ -1,0 +1,15 @@
+@import 'variable';
+@import 'mixin';
+
+
+//案例說明
+.case {
+  .case-block {
+    box-shadow: inset 50vw -180vh 0 0 $color-bg;
+  }
+}
+
+//常見問題
+.question {
+
+}
