@@ -13,3 +13,29 @@
 .question {
 
 }
+
+//內頁
+.inner-block {
+  background-color: #fffcf9;
+  padding: 120px 80px;
+
+  @include lg() {
+    padding: 40px 24px;
+  }
+
+  h1{
+    font-style: normal;
+    font-weight: bold;
+    line-height: 84px;
+    color: $color-primary;
+    padding-bottom: 24px;
+    letter-spacing: 2px;
+    @include lg() {
+      line-height: 36px;
+    }
+  }
+}
+
+.color-title{
+  color: $color-title;
+}

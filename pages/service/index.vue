@@ -7,8 +7,8 @@
 </template>
 
 <script setup>
-import TheBanner from '../components/TheBanner.vue'
-import TheService from "../components/TheService";
+import TheBanner from '../../components/TheBanner.vue'
+import TheService from "../../components/TheService";
 </script>
 
 <style scoped>

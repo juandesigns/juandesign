@@ -28,7 +28,7 @@ import itemImg_05 from "../assets/img/img-service-05.png";
 
 const type = [
   {
-    href: '',
+    href: '/service/website',
     title: '網站建置',
     src: itemImg_01,
     item_01: '品牌形象網站',
@@ -49,7 +49,7 @@ const type = [
     item_02: '爬蟲程式服務',
   },
   {
-    href: '',
+    href: '/service/uiux',
     title: 'UIUX設計及切版',
     src: itemImg_04,
     item_01: 'UI/UX設計',
