@@ -1,6 +1,6 @@
 <template>
 
-  <header>
+  <header class="shadow">
     <nav>
       <NuxtLink class="logo" to="/">
         <img width="121" src="../assets/img/img-logo.svg" alt="JuanDesign">
@@ -41,19 +41,19 @@
               </li>
             </div>
             <li class="item">
-              <MyNuxtLink class="h4" to="/">首頁</MyNuxtLink>
+              <MyNuxtLink class="h4 w-full" to="/" @click="isMenuOpen = !isMenuOpen">首頁</MyNuxtLink>
             </li>
             <li class="item">
-              <MyNuxtLink class="h4" to="/service">服務項目</MyNuxtLink>
+              <MyNuxtLink class="h4 w-full" to="/service" @click="isMenuOpen = !isMenuOpen">服務項目</MyNuxtLink>
             </li>
             <li class="item">
-              <MyNuxtLink class="h4" to="/case">相關案例</MyNuxtLink>
+              <MyNuxtLink class="h4 w-full" to="/case" @click="isMenuOpen = !isMenuOpen">相關案例</MyNuxtLink>
             </li>
             <li class="item">
-              <MyNuxtLink class="h4" to="/question">常見問題</MyNuxtLink>
+              <MyNuxtLink class="h4 w-full" to="/question" @click="isMenuOpen = !isMenuOpen">常見問題</MyNuxtLink>
             </li>
             <li class="item">
-              <MyNuxtLink class="h4" to="/contact">聯絡我們</MyNuxtLink>
+              <MyNuxtLink class="h4 w-full" to="/contact" @click="isMenuOpen = !isMenuOpen">聯絡我們</MyNuxtLink>
             </li>
           </ul>
         </div>
