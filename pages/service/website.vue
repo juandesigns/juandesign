@@ -5,65 +5,41 @@
       <div class="container">
 
         <div class="flex flex-col">
-          <h1>品牌形象網站</h1>
-          <p class="font-bold">服務報價(每頁)：</p>
-          <ul class="list-disc pl-4 leading-8">
-            <li>一般靜態網頁切版：1500元</li>
-            <li>一般動態網頁切版：1500元 ~ 5000元</li>
-            <li>含 RWD 靜態網頁切版：2500元</li>
-            <li>含 RWD 動態網頁切版：2500元 ~ 6000元</li>
+          <h1>品牌形象網站、一頁式網站</h1>
+          <h3 class="font-bold">可依照自己需要服務，進行選擇：</h3>
+          <ul class="list-[square] pl-4 leading-8">
+            <li>網頁設計、或者已有設計稿需要切版，請參照 <a class="border-b-2 border-red-300 text-red-400 pr-1 font-bold"
+                                        href="/service/uiux">UIUX設計服務</a></li>
+            <li>頁面有開發功能需求，請參照 <a class="border-b-2 border-red-300 text-red-400 pr-1 font-bold" href="/service/uiux">軟體開發服務</a>
+            </li>
+            <li>網站需要架設及專屬域名，請參照 <a class="border-b-2 border-red-300 text-red-400 pr-1 font-bold" href="/service/uiux">網站架設及域名服務</a>
+            </li>
+            <li>需要Fb交談按鈕 或 Line@機器人建置，請參照 <a class="border-b-2 border-red-300 text-red-400 pr-1 font-bold"
+                                             href="/service/uiux">品牌經營與推廣服務</a></li>
+
           </ul>
-          <p class="mt-4 font-bold">提供相關技術：</p>
-          <ul class="list-disc pl-4 leading-8">
-            <li>HTML、CSS、SCSS、SASS、tailwindcss</li>
-            <li>Javascript、Bootstrap、Vue</li>
-            <li>可配合使用版控</li>
+          <h3 class="mt-8 font-bold">網設設計需要自行提供什麼呢？</h3>
+          <ul class="list-[square] pl-4 leading-8">
+            <li>企業LOGO，會依照企業色系進行配色</li>
+            <li>期望設計的風格，提供參考風格或網站，加速UI設計</li>
+            <li>頁面所需呈現文案與內容</li>
           </ul>
+          <h3 class="mt-8 font-bold">我想詢問報價需要提供什麼呢？</h3>
+          <ul class="list-[square] pl-4 leading-8">
+            <li>需要採用哪些服務？(網頁設計/功能開發/網域/fb交談按鈕/line@)</li>
+            <li>若有網頁開發功能，請詳細說明需求</li>
+            <li>若有網站架設及域名需求 ，請選擇「客製化域名」或「免費域名」</li>
+            <li>開發或設計是否有指定技術或工具？</li>
+            <li>期望開發時程及交付日為何？</li>
+          </ul>
+
           <p class="mt-4 color-title">
-            備註：<br/>
-            報價依動態複雜度而定，最終報價依報價單為主<br/>
-            RWD自適應多裝置包含手機、平板、網頁
+            準備好報價資料後，請直接聯絡我們！<br/>
+            會依照需要服務，提供對應報價及所需工作天
           </p>
-        </div>
-        <hr class="my-10"/>
-        <div class="flex flex-col">
-          <h1>一頁式網站</h1>
-          <p class="font-bold">服務報價：</p>
-          <ul class="list-disc pl-4 leading-8">
-            <li>可配合不同階段製作(wireframe、mockup、prototype)</li>
-            <li>可配合出不同風格提供案主選擇</li>
-            <li>報價以工作時數 * 360元</li>
-          </ul>
-          <p class="mt-4 font-bold">提供相關技術：</p>
-          <ul class="list-disc pl-4 leading-8">
-            <li>Sketch、Figma、Zeplin</li>
-          </ul>
-          <p class="mt-4 color-title">
-            備註：<br/>
-            請聯絡討論設計需求，後續提供報價及工作時數
-          </p>
-        </div>
-        <hr class="my-10"/>
-        <div class="flex flex-col">
-          <h1>單一細項製作</h1>
-          <p class="font-bold">服務報價：</p>
-          <ul class="list-disc pl-4 leading-8">
-            <li>跑版修正、進行icon、製作banner等等</li>
-            <li>報價以工作時數 * 360元</li>
-          </ul>
-          <p class="mt-4 color-title">
-            備註：<br/>
-            請聯絡討論設計需求，後續提供報價及工作時數
-          </p>
-        </div>
-        <hr class="my-10"/>
-        <div class="flex flex-col">
-          <h1>保固說明</h1>
-          <ul class="list-disc pl-4 leading-8">
-            <li>交付案件可進行配合3次小調整，儘量滿足業主需求！</li>
-            <li>若大方向調整需額外報價</li>
-            <li>急件加價，可依上述報價 * 1.5</li>
-          </ul>
+          <MyNuxtLink class="h4" to="/contact">
+            <UButton class="btn-primary h2" label="聯絡我們" :ui="{ rounded: 'rounded-full' }"/>
+          </MyNuxtLink>
         </div>
       </div>
     </section>

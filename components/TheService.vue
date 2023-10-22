@@ -35,14 +35,14 @@ const type = [
     item_02: '一頁式網站',
   },
   {
-    href: '',
+    href: '/service/websetup',
     title: '網站架設與網域',
     src: itemImg_02,
     item_01: '客製化網域',
     item_02: '虛擬主機架設',
   },
   {
-    href: '',
+    href: '/service/develop',
     title: '軟體開發',
     src: itemImg_03,
     item_01: '前端/後端開發',
@@ -56,7 +56,7 @@ const type = [
     item_02: '網頁切版服務',
   },
   {
-    href: '',
+    href: '/service/brand',
     title: '品牌經營與推廣',
     src: itemImg_05,
     item_01: 'LINE@BOT 建立',
