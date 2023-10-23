@@ -44,14 +44,14 @@
             @progress="onProgress"
             @slidechange="onSlideChange"
         >
-          <swiper-slide class="bg-white lg:p-8 rounded-2xl shadow-sm object-cover">
+          <swiper-slide class="mb-10 bg-white lg:p-8 rounded-2xl shadow-sm object-cover">
             <img src="../../assets/img/account-img-01.png"/>
           </swiper-slide>
-          <swiper-slide class="bg-white lg:p-8 rounded-2xl shadow-sm object-cover">
-            <img class="" src="../../assets/img/account-img-02.png"/>
+          <swiper-slide class="mb-10 bg-white lg:p-8 rounded-2xl shadow-sm object-cover">
+            <img src="../../assets/img/account-img-02.png"/>
           </swiper-slide>
-          <swiper-slide class="bg-white lg:p-8 lg:pb-12 rounded-2xl shadow-sm object-cover">
-            <img class="" src="../../assets/img/account-img-03.png"/>
+          <swiper-slide class="mb-10 bg-white lg:p-8 lg:pb-12 rounded-2xl shadow-sm object-cover">
+            <img src="../../assets/img/account-img-03.png"/>
           </swiper-slide>
         </swiper-container>
         <div class="flex flex-col grid gap-y-6 mt-8">
