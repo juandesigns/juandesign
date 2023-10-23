@@ -26,7 +26,7 @@
         </ul>
       </div>
     </section>
-    <section class="inner-block">
+    <section class="inner-block flex justify-center">
       <div class="container">
         <div class="flex flex-col grid gap-y-6">
           <h2 class="color-title font-bold mb-8">一、規劃流程</h2>
