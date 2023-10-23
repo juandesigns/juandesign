@@ -58,10 +58,10 @@
           <p>數位帳戶使用者樣貌</p>
           <img class="lg:px-8" src="../../assets/img/account-img-04.png"/>
 
-          <h2 class="color-title font-bold mt-8">三、使用者痛點</h2>
+          <h2 class="color-title font-bold my-8">三、使用者痛點</h2>
           <div class=" lg:p-8 grid grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8">
             <ul class="list-[square] pl-4 leading-8">
-              <h3 class="font-bold my-8">開戶前</h3>
+              <h3 class="font-bold mb-4">開戶前</h3>
               <li>不了解詳細優惠訊息</li>
               <li>不確定需準備什麼文件</li>
             </ul>
@@ -78,10 +78,10 @@
               <li>轉帳時才發現有轉帳限額限制</li>
             </ul>
           </div>
-          <h2 class="color-title font-bold mt-8">四、整體解決策略</h2>
+          <h2 class="color-title font-bold my-8">四、整體解決策略</h2>
           <div class=" lg:p-8 grid grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8">
             <ul class="list-[square] pl-4 leading-8">
-              <h3 class="font-bold my-8">開戶前</h3>
+              <h3 class="font-bold mb-4">開戶前</h3>
               <li>首頁優惠以數字方式顯示</li>
               <li>開戶入口以身分為頁籤切換</li>
               <li>優化開戶流程說明</li>
