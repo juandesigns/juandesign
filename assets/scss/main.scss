@@ -1,40 +1,8 @@
 @import 'variable';
 @import 'mixin';
-//NotoSerifTC
-@font-face {
-  font-family: 'NotoSerifTC';
-  src: url('../../public/font/NotoSerifTC-Regular.otf') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 
-@font-face {
-  font-family: 'NotoSerifTC';
-  src: url('../../public/font/NotoSerifTC-Bold.otf') format('woff');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'NotoSerifTC';
-  src: url('../../public/font/NotoSerifTC-Medium.otf') format('woff');
-  font-weight: 500;
-}
-
-//Caudex
-@font-face {
-  font-family: 'Caudex';
-  src: url('../../public/font/Caudex-Regular.ttf') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Caudex';
-  src: url('../../public/font/Caudex-Bold.ttf') format('woff');
-  font-weight: bold;
-}
+//@font-face
+@import url('https://fonts.googleapis.com/css2?family=Caudex:wght@700&family=Noto+Serif+TC:wght@400;500;700&family=Poppins:wght@700&display=swap');
 
 @media (min-width: 1400px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -100,7 +68,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'NotoSerifTC';
+  font-family: "Noto Serif TC";
   color: $color-text;
   background-color: $color-bg;
   font-size: 16px;

@@ -144,7 +144,9 @@
                 <li>使用Adobe XD提供原型如下：</li>
               </ul>
             </div>
-            <iframe class="sm:h-[640px] cursor-pointer" width="100%" height="320" src="https://xd.adobe.com/embed/361b1586-b8f7-4e4e-a2e9-8e7ff4ae7cc0-6348/" frameborder="0" allowfullscreen=""></iframe>
+            <iframe class="sm:h-[640px] cursor-pointer" width="100%" height="320"
+                    src="https://xd.adobe.com/embed/361b1586-b8f7-4e4e-a2e9-8e7ff4ae7cc0-6348/" frameborder="0"
+                    allowfullscreen=""></iframe>
           </div>
           <div class="flex grid grid-cols-1 gap-x-6 gap-y-8">
             <div class="flex flex-col">
