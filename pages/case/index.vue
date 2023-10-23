@@ -10,7 +10,7 @@
           </div>
           <p class="en-txt text-right">SERVICE<br/>CASE</p>
         </div>
-        <div class="flex flex-wrap justify-end w-full grid grid-cols-2 lg:grid-cols-3 sm:grid-cols-3 gap-6 mt-20">
+        <div class="flex flex-wrap justify-end w-full grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-3 gap-6 mt-20">
           <div v-for="file in type" :key="file.title">
             <TheImgContent :href="file.href" :src="file.src" :title="file.title" :item_01="file.item_01"
                            :item_02="file.item_02"/>
