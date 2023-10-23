@@ -1,5 +1,5 @@
 <template>
-  <a :href="href" class="img-content group hover:-translate-y-4 transition-all">
+  <a :href="href" class="img-content group hover:-translate-y-4 transition-all duration-300">
     <img :src="src">
     <p class="h3">{{ title }}</p>
     <p class="title">{{ item_01 }}</p>
