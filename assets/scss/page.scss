@@ -7,6 +7,12 @@
   .case-block {
     box-shadow: inset 50vw -180vh 0 0 $color-bg;
   }
+
+  .title {
+    font-weight: bold;
+    color: $color-primary;
+    margin-bottom: 4px;
+  }
 }
 
 //常見問題
@@ -23,7 +29,7 @@
     padding: 40px 24px;
   }
 
-  h1{
+  h1 {
     font-style: normal;
     font-weight: bold;
     line-height: 84px;
@@ -36,6 +42,6 @@
   }
 }
 
-.color-title{
+.color-title {
   color: $color-title;
 }

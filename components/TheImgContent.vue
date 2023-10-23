@@ -2,8 +2,8 @@
   <a :href="href" class="img-content group hover:-translate-y-4 transition-all">
     <img :src="src">
     <p class="h3">{{ title }}</p>
-    <p>{{ item_01 }}</p>
-    <p>{{ item_02 }}</p>
+    <p class="title">{{ item_01 }}</p>
+    <p class="line-clamp-3">{{ item_02 }}</p>
     <div class="flex justify-end">
       <UButton :label="btn" class="h4">
         <template #trailing>
