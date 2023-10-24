@@ -1,5 +1,5 @@
 <template>
-  <main class="service-inner">
+  <div class="service-inner">
     <TheBanner :title="'相關案例'" :description="'數位存款帳戶線上開戶'"/>
     <section class="inner-block flex flex-col items-center">
       <div class="container">
@@ -37,8 +37,8 @@
         </div>
         <swiper-container
             class="swiper-index"
-            loop="true"
-            pagination="true"
+            :loop="true"
+            :pagination="true"
             :slides-per-view="1"
             :centered-slides="false"
             @progress="onProgress"
@@ -159,7 +159,7 @@
     </section>
 
     <TheContact/>
-  </main>
+  </div>
 </template>
 
 <script setup>
@@ -180,17 +180,4 @@ const onSlideChange = (e) => {
 </script>
 
 <style scoped>
-swiper-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-swiper-container {
-  padding: 40px 0 0 0;
-}
-
-swiper-container::part(bullet-active) {
-  background-color: #B38F8AFF;
-}
 </style>

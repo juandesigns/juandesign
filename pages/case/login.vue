@@ -1,5 +1,5 @@
 <template>
-  <main class="service-inner">
+  <div class="service-inner">
     <TheBanner :title="'相關案例'" :description="'行動登入啟動優化APP'"/>
     <section class="inner-block flex flex-col items-center">
       <div class="container">
@@ -107,7 +107,8 @@
               <li>整體以畫報、插畫風格，轉場以翻轉立體呈現</li>
             </ul>
           </div>
-          <iframe width="320" height="700"  src="https://xd.adobe.com/embed/26a45271-a9eb-4c06-b985-f08d4d98e3cf-73f7/" frameborder="0" allowfullscreen=""></iframe>
+          <iframe width="320" height="700" src="https://xd.adobe.com/embed/26a45271-a9eb-4c06-b985-f08d4d98e3cf-73f7/"
+                  frameborder="0" allowfullscreen=""></iframe>
         </div>
         <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 mt-8">
           <div class="flex flex-col">
@@ -157,46 +158,16 @@
             <img alt="減少碳排放量" class="w-1/2 mt-8 sm:mt-0" src="../../assets/img/login-img-10.png"/>
           </div>
         </div>
-
-
-
-
       </div>
     </section>
 
     <TheContact/>
-  </main>
+  </div>
 </template>
 
 <script setup>
 import TheBanner from '../../components/TheBanner.vue'
-import {register} from 'swiper/element/bundle';
-
-register();
-
-const spaceBetween = 20;
-const onProgress = (e) => {
-  const [swiper, progress] = e.detail;
-  console.log(progress)
-};
-
-const onSlideChange = (e) => {
-  console.log('slide changed')
-}
 </script>
 
 <style scoped>
-swiper-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-swiper-container {
-  padding: 40px 0 0 0;
-}
-
-swiper-container::part(bullet-active) {
-  background-color: #B38F8AFF;
-}
 </style>

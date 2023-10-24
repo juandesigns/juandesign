@@ -1,5 +1,5 @@
 <template>
-  <main class="service-inner">
+  <div class="service-inner">
     <TheBanner :title="'服務項目'" :description="'網站建置'"/>
     <section class="inner-block flex flex-col items-center">
       <div class="container">
@@ -51,7 +51,7 @@
       </div>
     </section>
     <TheContact/>
-  </main>
+  </div>
 </template>
 
 <script setup>

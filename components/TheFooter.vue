@@ -11,18 +11,18 @@
           <ul class="community">
             <li>
               <a href="" target="_blank">
-                <img src="../assets/img/icon/i_fb.svg" alt=""></a>
+                <img src="../assets/img/icon/i_fb.svg" alt="https://www.facebook.com/profile.php?id=61550725657778"></a>
             </li>
-            <li><a href="" target="_blank">
-              <img src="../assets/img/icon/i_line.svg" alt=""></a>
-            </li>
+<!--            <li><a href="" target="_blank">-->
+<!--              <img src="../assets/img/icon/i_line.svg" alt=""></a>-->
+<!--            </li>-->
             <li>
               <a href="" target="_blank">
-                <img src="../assets/img/icon/i_ig.svg" alt=""></a>
+                <img src="../assets/img/icon/i_ig.svg" alt="https://www.instagram.com/juandesign.studios/"></a>
             </li>
           </ul>
           <h3 class="footer-title">聯絡信箱</h3>
-          <p> juandesign.studios@gmail.com</p>
+          <a href="mailto:juandesign.studios@gmail.com">juandesign.studios@gmail.com</a>
         </div>
         <div class="footer-3">
           <h3 class="footer-title">服務地圖</h3>

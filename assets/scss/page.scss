@@ -17,7 +17,20 @@
 
 //常見問題
 .question {
-
+  .QA-title > button {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    padding: 24px 24px 24px 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+    line-height: 28px;
+    @include lg() {
+      padding: 24px 0;
+    }
+  }
 }
 
 //內頁

@@ -11,9 +11,9 @@
         </div>
         <swiper-container
             class="swiper-index"
-            loop="true"
-            pagination="true"
-            :slides-per-view="7"
+            :loop="false"
+            :pagination="true"
+            :slides-per-view="1"
             :centered-slides="false"
             :breakpoints="{
               1200: {
@@ -93,8 +93,8 @@
         <UAccordion :ui="{ wrapper: 'QA-title' }"
                     color="text-red"
                     :items="items"
-                    open-icon="i-heroicons-plus"
-                    close-icon="i-heroicons-minus"
+                    open-icon="i-heroicons-plus min-w-[24px] w-6 h-6"
+                    close-icon="i-heroicons-minus min-w-[24px] w-6 h-6"
                     multiple>
           <template #QA-1>
             <div class="flex grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
@@ -269,19 +269,19 @@ const onSlideChange = (e) => {
 const items = [
   {
     label: '1.有什麼聯絡方式？',
-    icon: 'i-heroicons-chat-bubble-oval-left-ellipsis mr-4 w-6 h-6',
+    icon: 'i-heroicons-chat-bubble-oval-left-ellipsis mr-2 sm:mr-4 w-6 h-6',
     defaultOpen: true,
     slot: 'QA-1'
   },
   {
     label: '2.有提供什麼服務？',
-    icon: 'i-heroicons-chat-bubble-oval-left-ellipsis mr-4 w-6 h-6',
+    icon: 'i-heroicons-chat-bubble-oval-left-ellipsis mr-2 sm:mr-4 w-6 h-6',
     defaultOpen: false,
     slot: 'QA-2'
   },
   {
     label: '3.有什麼案例或作品可以參考？',
-    icon: 'i-heroicons-chat-bubble-oval-left-ellipsis mr-4 w-6 h-6',
+    icon: 'i-heroicons-chat-bubble-oval-left-ellipsis mr-2 sm:mr-4 w-6 h-6',
     defaultOpen: false,
     slot: 'QA-3'
   },
@@ -293,49 +293,49 @@ const items = [
   },
   {
     label: '5.簽約是否會提供合約？',
-    icon: 'i-heroicons-pencil-square mr-4 w-6 h-6',
+    icon: 'i-heroicons-pencil-square mr-2 sm:mr-4 w-6 h-6',
     defaultOpen: false,
     slot: 'QA-5'
   },
   {
     label: '6.合約是否有保固期限？',
-    icon: 'i-heroicons-pencil-square mr-4 w-6 h-6',
+    icon: 'i-heroicons-pencil-square mr-2 sm:mr-4 w-6 h-6',
     defaultOpen: false,
     slot: 'QA-6'
   },
   {
     label: '7.是否可提供發票或勞報單？',
-    icon: 'i-heroicons-currency-dollar mr-4 w-6 h-6',
+    icon: 'i-heroicons-currency-dollar mr-2 sm:mr-4 w-6 h-6',
     defaultOpen: false,
     slot: 'QA-7'
   },
   {
     label: '8.是否需要支付訂金？需要支付多少？',
-    icon: 'i-heroicons-currency-dollar mr-4 w-6 h-6',
+    icon: 'i-heroicons-currency-dollar mr-2 sm:mr-4 w-6 h-6',
     defaultOpen: false,
     slot: 'QA-8'
   },
   {
     label: '9.有提供什麼支付方式？',
-    icon: 'i-heroicons-currency-dollar mr-4 w-6 h-6',
+    icon: 'i-heroicons-currency-dollar mr-2 sm:mr-4 w-6 h-6',
     defaultOpen: false,
     slot: 'QA-9'
   },
   {
     label: '10.驗收及修正可以幾次調整？',
-    icon: 'i-heroicons-computer-desktop mr-4 w-6 h-6',
+    icon: 'i-heroicons-computer-desktop mr-2 sm:mr-4 w-6 h-6',
     defaultOpen: false,
     slot: 'QA-10'
   },
   {
     label: '11.完成交付後又需要修改怎麼辦？',
-    icon: 'i-heroicons-check-badge mr-4 w-6 h-6',
+    icon: 'i-heroicons-check-badge mr-2 sm:mr-4 w-6 h-6',
     defaultOpen: false,
     slot: 'QA-11'
   },
   {
     label: '12.什麼時候收取尾款？',
-    icon: 'i-heroicons-banknotes mr-4 w-6 h-6',
+    icon: 'i-heroicons-banknotes mr-2 sm:mr-4 w-6 h-6',
     defaultOpen: false,
     slot: 'QA-12'
   },
@@ -345,12 +345,6 @@ const items = [
 
 
 <style>
-.QA-title > button {
-  border-bottom: 1px solid black;
-  border-radius: 0;
-  padding: 24px 24px 24px 0;
-  font-size: 20px;
-  letter-spacing: 2px;
-}
+
 
 </style>

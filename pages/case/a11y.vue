@@ -1,5 +1,5 @@
 <template>
-  <main class="service-inner">
+  <div class="service-inner">
     <TheBanner :title="'相關案例'" :description="'個人金融友善服務'"/>
     <section class="inner-block flex flex-col items-center">
       <div class="container">
@@ -97,38 +97,12 @@
     </section>
 
     <TheContact/>
-  </main>
+  </div>
 </template>
 
 <script setup>
 import TheBanner from '../../components/TheBanner.vue'
-import {register} from 'swiper/element/bundle';
-
-register();
-
-const spaceBetween = 20;
-const onProgress = (e) => {
-  const [swiper, progress] = e.detail;
-  console.log(progress)
-};
-
-const onSlideChange = (e) => {
-  console.log('slide changed')
-}
 </script>
 
 <style scoped>
-swiper-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-swiper-container {
-  padding: 40px 0 0 0;
-}
-
-swiper-container::part(bullet-active) {
-  background-color: #B38F8AFF;
-}
 </style>
