@@ -29,9 +29,24 @@ import itemImg_01 from "../../assets/img/img-case-01.png";
 import itemImg_02 from "../../assets/img/img-case-02.png";
 import itemImg_03 from "../../assets/img/img-case-03.png";
 import itemImg_04 from "../../assets/img/img-case-04.png";
-import itemImg_05 from "../../assets/img/img-service-05.png";
+import itemImg_05 from "../../assets/img/img-case-05.png";
+import itemImg_06 from "../../assets/img/img-case-06.png";
 
 const type = [
+  {
+    href: '/case/transfree',
+    title: '全台公車動態時刻查詢應用服務',
+    src: itemImg_06,
+    item_01: '2021/11',
+    item_02: '提供公車搜尋、附近站牌、常用公車、設定等服務，並適應多裝置尺寸，個性化多種設定讓使用者能清楚地接收資訊。',
+  },
+  {
+    href: '/case/lotsoScrum',
+    title: '熊抱科技Scrum新手村',
+    src: itemImg_05,
+    item_01: '2022/11',
+    item_02: '六角學院舉辦2022 F2e挑戰賽，內容是介紹 Scrum 工作法，UI 設計關卡內容與網頁互動效果，透過動畫與互動呈現知識點，讓新手挑戰者藉更了解 Scrum。',
+  },
   {
     href: '/case/account',
     title: '數位存款帳戶線上開戶',
@@ -59,14 +74,7 @@ const type = [
     src: itemImg_04,
     item_01: '2021/2-2021/3',
     item_02: '使用者情境為行動銀行更新資訊時，若用戶遇到更新時間較長時，容易出現焦躁情緒，需提供轉移用戶注意力來解決等待的焦慮。',
-  },
-  {
-    href: '',
-    title: '品牌經營與推廣',
-    src: itemImg_05,
-    item_01: 'LINE@BOT 建立',
-    item_02: 'FB messenger 交談功能',
-  },
+  }
 ]
 </script>
 

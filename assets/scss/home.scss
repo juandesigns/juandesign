@@ -296,11 +296,24 @@
 
 .case-block {
   padding: 120px 0;
-  background-color: rgba(179, 143, 138, 0.1);
-  box-shadow: inset 50vw -105vh 0 0 $color-bg;
+  background-color: $color-bg;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    width: 50vw;
+    height: 320px;
+    right: 0;
+    top: 0;
+    background-color: rgba(179, 143, 138, 0.1);
+  }
+
   @include lg() {
     padding: 40px 24px;
-    box-shadow: inset 50vw -95vh 0 0 $color-bg;
+    &::before{
+      height: 220px;
+    }
   }
 
   .en-txt {

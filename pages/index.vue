@@ -235,7 +235,7 @@ useSeoMeta({
 
 </script>
 
-<style scoped>
+<style>
 
 swiper-slide {
   display: flex;

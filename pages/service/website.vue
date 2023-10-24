@@ -8,15 +8,22 @@
           <h1>品牌形象網站、一頁式網站</h1>
           <h3 class="font-bold">可依照自己需要服務，進行選擇：</h3>
           <ul class="list-[square] pl-4 leading-8">
-            <li>網頁設計、或者已有設計稿需要切版，請參照 <a class="border-b-2 border-red-300 text-red-400 pr-1 font-bold"
-                                        href="/service/uiux">UIUX設計服務</a></li>
-            <li>頁面有開發功能需求，請參照 <a class="border-b-2 border-red-300 text-red-400 pr-1 font-bold" href="/service/uiux">軟體開發服務</a>
+            <li>網頁設計、或者已有設計稿需要切版，請參照
+              <a class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
+                 href="/service/uiux">UIUX設計服務</a>
             </li>
-            <li>網站需要架設及專屬域名，請參照 <a class="border-b-2 border-red-300 text-red-400 pr-1 font-bold" href="/service/uiux">網站架設及域名服務</a>
+            <li>頁面有開發功能需求，請參照 <a
+                class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
+                href="/service/uiux">軟體開發服務</a>
             </li>
-            <li>需要Fb交談按鈕 或 Line@機器人建置，請參照 <a class="border-b-2 border-red-300 text-red-400 pr-1 font-bold"
-                                             href="/service/uiux">品牌經營與推廣服務</a></li>
-
+            <li>網站需要架設及專屬域名，請參照 <a
+                class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
+                href="/service/uiux">網站架設及域名服務</a>
+            </li>
+            <li>需要Fb交談按鈕 或 Line@機器人建置，請參照 <a
+                class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
+                href="/service/uiux">品牌經營與推廣服務</a>
+            </li>
           </ul>
           <h3 class="mt-8 font-bold">網設設計需要自行提供什麼呢？</h3>
           <ul class="list-[square] pl-4 leading-8">

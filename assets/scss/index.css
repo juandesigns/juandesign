@@ -1,5 +1,5 @@
 /*
-Error: wrong number of arguments (3 for 4) for `rgba'
+Error: wrong number of arguments (1 for 3) for `rgb'
         on line 1 of _variable.scss
         from line 1 of main.scss
         from line 1 of index.scss
@@ -75,4 +75,4 @@ index.scss:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: wrong number of arguments (3 for 4) for `rgba'\A         on line 1 of _variable.scss\A         from line 1 of main.scss\A         from line 1 of index.scss\A \A 1: @import 'main';\A 2: @import 'home';\A 3: @import 'page';"; }
+  content: "Error: wrong number of arguments (1 for 3) for `rgb'\A         on line 1 of _variable.scss\A         from line 1 of main.scss\A         from line 1 of index.scss\A \A 1: @import 'main';\A 2: @import 'home';\A 3: @import 'page';"; }
