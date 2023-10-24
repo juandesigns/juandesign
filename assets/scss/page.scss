@@ -28,6 +28,7 @@
     text-align: left;
     line-height: 28px;
     @include lg() {
+      font-size: 18px;
       padding: 24px 0;
     }
   }

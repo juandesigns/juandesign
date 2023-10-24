@@ -6,7 +6,7 @@
         <div class="flex flex-col items-center">
           <div class="flex justify-center relative">
             <img width="138" src="../assets/img/img-title-process.png">
-            <span class="h2 title-tag whitespace-nowrap">常見問題</span>
+            <span class="h2 title-tag whitespace-nowrap">服務流程</span>
           </div>
         </div>
         <swiper-container
@@ -18,17 +18,16 @@
             :breakpoints="{
               1200: {
               slidesPerView: 7,
-            },
-
-             768: {
+               },
+               768: {
               slidesPerView: 5,
-            },
-            390: {
+              },
+               390: {
               slidesPerView: 1,
-            },
-             320: {
+              },
+               320: {
               slidesPerView: 1,
-            },
+              },
           }"
             @progress="onProgress"
             @slidechange="onSlideChange"

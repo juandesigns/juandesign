@@ -11,7 +11,7 @@
       </div>
     </section>
     <section class="flex justify-center bg-tag">
-      <div class="container p-4 lg:p-8 grid grid-cols-1 lg:grid-cols-2 gap-y-6">
+      <div class="container p-6 lg:p-8 grid grid-cols-1 lg:grid-cols-2 gap-y-6">
         <ul class="list-[square] pl-4 leading-8">
           <li>時程：2021/9-2021/10</li>
           <li>介面設計：Sketch、Figma、AdobeXD</li>

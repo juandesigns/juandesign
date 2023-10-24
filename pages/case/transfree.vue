@@ -27,7 +27,7 @@
       </div>
     </section>
     <section class="flex justify-center bg-tag">
-      <div class="container p-4 lg:p-8 grid grid-cols-1 lg:grid-cols-2 gap-y-6">
+      <div class="container p-6 lg:p-8 grid grid-cols-1 lg:grid-cols-2 gap-y-6">
         <ul class="list-[square] pl-4 leading-8">
           <li>舉辦單位：六角學院、交通部聯合</li>
           <li>時程：2021/11</li>
