@@ -3,7 +3,9 @@
   <header class="shadow">
     <nav>
       <NuxtLink class="logo" to="/">
-        <img width="121" src="../assets/img/img-logo.svg" alt="JuanDesign">
+        <img class="desk" width="121" src="../assets/img/img-logo.svg" alt="JuanDesign">
+        <img class="mobile py-1.5" width="254" src="../assets/img/img-logo-m.svg" alt="JuanDesign">
+
       </NuxtLink>
 
       <div class="menu-warp desk">
@@ -33,7 +35,7 @@
             <div class="flex w-100">
               <li class="item flex col-6">
                 <img src="../assets/img/icon/i_fb.svg"/>
-                <a target="_blank" href="https://www.facebook.com/profile.php?id=61550725657778">facebook</a>
+                <a target="_blank" href="https://www.facebook.com/juandesign.studios">Facebook</a>
               </li>
               <li class="item flex col-6">
                 <img src="../assets/img/icon/i_ig.svg"/>

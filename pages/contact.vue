@@ -11,14 +11,14 @@
             <li>Facebook |
               <a target="_blank"
                  class="text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
-                 href="https://www.facebook.com/profile.php?id=61550725657778">Juan Design</a>
+                 href="https://www.facebook.com/juandesign.studios">Juan Design</a>
             </li>
             <li>IG |
               <a target="_blank"
                  class="text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
                  href="https://www.instagram.com/juandesign.studios/">@juandesign.studios</a>
             </li>
-            <li>Email |<br class="mobile"/>
+            <li>Email | <br class="mobile"/>
               <a target="_blank"
                  class="break-words text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
                  href="mailto:juandesign.studios@gmail.com">juandesign.studios@gmail.com</a>

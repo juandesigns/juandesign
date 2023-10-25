@@ -102,14 +102,14 @@
                 <li>Facebook粉絲專頁
                   <a target="_blank"
                      class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
-                     href="https://www.facebook.com/profile.php?id=61550725657778">前往聯繫</a>
+                     href="https://www.facebook.com/juandesign.studios">前往聯繫</a>
                 </li>
                 <li>IG 粉絲專頁
                   <a target="_blank"
                      class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
                      href="https://www.instagram.com/juandesign.studios/">前往聯繫</a>
                 </li>
-                <li>Mail寄信
+                <li>Email
                   <a target="_blank"
                      class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
                      href="mailto:juandesign.studios@gmail.com">立即寄信</a>
