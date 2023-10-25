@@ -77,6 +77,8 @@ const state = ref({
   title: undefined,
   content: undefined,
 })
+
+//TODO other validation
 const validate = (state: any): FormError[] => {
   const errors = []
   if (!state.name) errors.push({path: 'name', message: '請輸入聯絡人姓名'})
@@ -87,8 +89,23 @@ const validate = (state: any): FormError[] => {
 }
 
 async function submit(event: FormSubmitEvent<any>) {
-  // Do something with data
-  console.log(event.data)
+  const message = `
+  收到信息了！
+  姓名：${event.data.name}
+  聯絡信箱：${event.data.email}
+  主旨：${event.data.title}
+  訊息：${event.data.content}
+  `
+
+  const data = {
+    message: message
+  }
+
+  await fetch('https://script.google.com/macros/s/AKfycby-p3pkm46nnXAdHPESo1I8J6CgiyVDUpeRfKGc_q8L04ArtQScNclMoE3ciSGn6rcm/exec', {
+    body: JSON.stringify(data),
+    method: 'POST',
+    mode: 'no-cors'
+  })
 }
 
 definePageMeta({
