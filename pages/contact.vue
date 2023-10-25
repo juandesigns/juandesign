@@ -35,7 +35,7 @@
               @submit="submit"
               class="grid gap-y-6"
           >
-            <UFormGroup label="*姓名" name="name">
+            <UFormGroup label="*姓名" name="name" class="dark:text-gray-900">
               <UInput v-model="state.name" size="md" padding="md"/>
             </UFormGroup>
             <UFormGroup label="*聯絡信箱" name="email">
@@ -90,6 +90,10 @@ async function submit(event: FormSubmitEvent<any>) {
   // Do something with data
   console.log(event.data)
 }
+
+definePageMeta({
+  colorMode: 'light',
+})
 </script>
 <style scoped>
 
