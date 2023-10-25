@@ -32,12 +32,12 @@
           <ul class="menu-list">
             <div class="flex w-100">
               <li class="item flex col-6">
-                <img src="../assets/img/icon/i_line.svg"/>
-                <a href="">Line@</a>
+                <img src="../assets/img/icon/i_fb.svg"/>
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=61550725657778">facebook</a>
               </li>
               <li class="item flex col-6">
                 <img src="../assets/img/icon/i_ig.svg"/>
-                <a href="">Instagram</a>
+                <a target="_blank" href="https://www.instagram.com/juandesign.studios/">Instagram</a>
               </li>
             </div>
             <li class="item">

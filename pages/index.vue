@@ -3,13 +3,13 @@
     <main>
       <section class="banner-block flex justify-center">
         <div class="container">
-          <div>
+          <div class="flex flex-col">
             <h1>打造你的專屬網站<br/><span class="h2">準時交件 <br class="mobile"/>價格優惠 <br class="mobile"/>用心負責</span></h1>
-            <p class="h5">
-              我們夥伴包含<br class="mobile"/>UIUX設計師、全端開發工程師！<br/>
-              提供UI設計及畫面切版<br class="mobile"/>能夠完美落地實現設計稿，<br/>
-              工程師能支持前後端技術，<br class="mobile"/>開發品質高，容易擴充及維護！<br/>
-              希望能有機會可以合作！<br class="mobile"/>若有任何疑問都歡迎再討論！
+            <p class="h4">
+              我們夥伴包含<br/>UIUX設計師、全端開發工程師！<br/>
+              提供UI設計及畫面切版<br />能夠完美落地實現設計稿，<br/>
+              工程師能支持前後端技術，<br/>開發品質高，容易擴充及維護！<br/>
+              希望能有機會可以合作！<br />若有任何疑問都歡迎再討論！
             </p>
           </div>
         </div>
@@ -112,14 +112,14 @@
           <div class="flex flex-row justify-between items-center">
             <div class="flex justify-center relative">
               <img width="125" src="../assets/img/img-title-case.png">
-              <span class="h2 title-tag whitespace-nowrap">近期案例</span>
+              <span class="h2 title-tag whitespace-nowrap">相關案例</span>
             </div>
-            <p class="en-txt text-right">RECENT<br/>CASE</p>
+            <p class="en-txt text-right">ABOUT<br/>CASE</p>
           </div>
           <swiper-container
               class="swiper-index"
               :loop="true"
-              :pagination="false"
+              :pagination="true"
               :slides-per-view="4"
               :space-between="40"
               :breakpoints="{

@@ -1,6 +1,6 @@
 <template>
   <main class="question">
-    <TheBanner :title="'常見問題'" :description="'合作過程與報價詢問常見問題'"/>
+    <TheBanner :title="'常見問題'" :description="'服務流程中常見問題'"/>
     <section class="process-block flex flex-col items-center">
       <div class="container flex flex-col">
         <div class="flex flex-col items-center">
@@ -145,8 +145,9 @@
               <p>過往相關作品及案例，請參照
                 <a class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
                    href="/case">相關案例</a>
-                有更詳細介紹及展示，若有其他疑問可直接聯繫我們。
+                有更詳細介紹及展示。
               </p>
+              <p>若是想要查看更多案例、近期案例，可直接聯繫我們！</p>
             </div>
           </template>
           <template #QA-4>
@@ -334,7 +335,7 @@ const items = [
   },
   {
     label: '12.什麼時候收取尾款？',
-    icon: 'i-heroicons-banknotes mr-2 sm:mr-4 w-6 h-6',
+    icon: 'i-heroicons-building-library mr-2 sm:mr-4 w-6 h-6',
     defaultOpen: false,
     slot: 'QA-12'
   },

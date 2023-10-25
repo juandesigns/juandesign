@@ -8,8 +8,9 @@
             <img width="125" src="../../assets/img/img-title-case.png">
             <span class="h2 title-tag whitespace-nowrap">相關案例</span>
           </div>
-          <p class="en-txt text-right">SERVICE<br/>CASE</p>
+          <p class="en-txt text-right">ABOUT<br/>CASE</p>
         </div>
+        <p class="mt-4">若是想要查看更多案例，或近期案例可直接聯繫我們！</p>
         <div class="flex flex-wrap justify-end w-full grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-3 gap-6 mt-20">
           <div v-for="file in type" :key="file.title">
             <TheImgContent :href="file.href" :src="file.src" :title="file.title" :item_01="file.item_01"

@@ -74,7 +74,7 @@ body {
   font-size: 16px;
   letter-spacing: 2px;
   @include lg() {
-    padding-top: 74px;
+    padding-top: 64px;
   }
 }
 
@@ -199,7 +199,7 @@ header {
     z-index: 99;
 
     @include lg {
-      padding: 17px 24px;
+      padding: 12px 16px;
       flex-direction: row;
       justify-content: space-between;
     }
@@ -421,7 +421,7 @@ header {
         top: 0;
         left: -100%;
         background-color: $color-bg;
-        padding: 74px 0 0 0;
+        padding: 64px 0 0 0;
         width: 100%;
         height: 100vh;
         max-height: 100vh;
@@ -606,7 +606,7 @@ footer {
     justify-content: space-between;
     padding: 24px 0;
     @include lg {
-      padding: 24px;
+      padding: 24px 16px;
       flex-direction: column;
       align-items: start;
     }

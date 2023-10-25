@@ -1,6 +1,20 @@
 @import 'variable';
 @import 'mixin';
 
+.color-title {
+  color: $color-title;
+}
+
+input,
+textarea {
+  letter-spacing: 2px;
+  border-radius: 4px !important;
+
+  &:focus {
+    border: transparent !important;
+    outline: transparent;
+  }
+}
 
 //案例說明
 .case {
@@ -56,6 +70,4 @@
   }
 }
 
-.color-title {
-  color: $color-title;
-}
+

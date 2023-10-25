@@ -5,6 +5,11 @@ $color-text: #434343;
 $color-bg: #FAF6F3;
 $color-tag: #ECE5DF;
 $color-white: #FFFFFF;
-.bg-tag{
+.bg-tag {
   background-color: $color-tag;
 }
+
+:root {
+  --color-primary-500: 192 142 136;
+}
+
