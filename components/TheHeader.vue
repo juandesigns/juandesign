@@ -3,7 +3,9 @@
   <header class="shadow">
     <nav>
       <NuxtLink class="logo" to="/">
-        <img width="121" src="../assets/img/img-logo.svg" alt="JuanDesign">
+        <img class="desk" width="121" src="../assets/img/img-logo.svg" alt="JuanDesign">
+        <img class="mobile py-1.5" width="254" src="../assets/img/img-logo-m.svg" alt="JuanDesign">
+
       </NuxtLink>
 
       <div class="menu-warp desk">
