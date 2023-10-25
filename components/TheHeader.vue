@@ -35,7 +35,7 @@
             <div class="flex w-100">
               <li class="item flex col-6">
                 <img src="../assets/img/icon/i_fb.svg"/>
-                <a target="_blank" href="https://www.facebook.com/profile.php?id=61550725657778">Facebook</a>
+                <a target="_blank" href="https://www.facebook.com/juandesign.studios">Facebook</a>
               </li>
               <li class="item flex col-6">
                 <img src="../assets/img/icon/i_ig.svg"/>
