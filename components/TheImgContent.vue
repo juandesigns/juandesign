@@ -1,7 +1,7 @@
 <template>
   <a :href="href" class="img-content group hover:-translate-y-4 transition-all duration-300">
     <img :src="src">
-    <p class="h3">{{ title }}</p>
+    <p class="h3 line-clamp-1">{{ title }}</p>
     <p class="title">{{ item_01 }}</p>
     <p class="line-clamp-3">{{ item_02 }}</p>
     <div class="flex justify-end">

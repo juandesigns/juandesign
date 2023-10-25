@@ -206,6 +206,7 @@ import itemImg_03 from "../assets/img/img-case-03.png";
 import itemImg_04 from "../assets/img/img-case-04.png";
 import itemImg_05 from "../assets/img/img-case-05.png";
 import itemImg_06 from "../assets/img/img-case-06.png";
+import itemImg_07 from "../assets/img/img-case-07.png";
 
 register();
 
@@ -230,6 +231,13 @@ useSeoMeta({
 })
 
 const type = [
+  {
+    href: '/case/laundry',
+    title: '新光白洗衣店LINE@預約收送',
+    src: itemImg_07,
+    item_01: '2023/9',
+    item_02: '透過LINE@與Google sheet串接存取訂單，發送LINE Notify通知商家訂單，同時LINE@通知客人已收到預約訂單。',
+  },
   {
     href: '/case/transfree',
     title: '全台公車動態時刻查詢應用服務',
