@@ -23,9 +23,6 @@ const options: NuxtFacebookChatOptions = {
   locale:"zh_TW",
   pageId: "122487314278162",  // Your Facebook Page ID
   themeColor: "#f87171",      // Customize the chat theme color
-  LoggedInGreeting:"哈囉！你好，若有任何疑問或合作機會，歡迎直接聯繫我們！😀",
-  LoggedOutGreeting:"哈囉！你好，若有任何疑問或合作機會，歡迎直接聯繫我們！😀",
-  greetingDialogDisplay:"hidden",
 };
 </script>
 
