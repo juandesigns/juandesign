@@ -141,51 +141,6 @@
               <TheImgContent :href="file.href" :src="file.src" :title="file.title" :item_01="file.item_01"
                              :item_02="file.item_02"/>
             </swiper-slide>
-            <!--            <swiper-slide>-->
-            <!--              <div class="img-content">-->
-            <!--                <img src="../assets/img/img-service-01.png">-->
-            <!--                <p class="h3">網站建置</p>-->
-            <!--                <p>品牌形象網站</p>-->
-            <!--                <p>一頁式網站</p>-->
-            <!--                <div class="flex justify-end">-->
-            <!--                  <UButton label="More" class="h4">-->
-            <!--                    <template #trailing>-->
-            <!--                      <UIcon name="i-heroicons-arrow-right-20-solid"/>-->
-            <!--                    </template>-->
-            <!--                  </UButton>-->
-            <!--                </div>-->
-            <!--              </div>-->
-            <!--            </swiper-slide>-->
-            <!--            <swiper-slide>-->
-            <!--              <div class="img-content">-->
-            <!--                <img src="../assets/img/img-service-01.png">-->
-            <!--                <p class="h3">網站建置</p>-->
-            <!--                <p>品牌形象網站</p>-->
-            <!--                <p>一頁式網站</p>-->
-            <!--                <div class="flex justify-end">-->
-            <!--                  <UButton label="More" class="h4">-->
-            <!--                    <template #trailing>-->
-            <!--                      <UIcon name="i-heroicons-arrow-right-20-solid"/>-->
-            <!--                    </template>-->
-            <!--                  </UButton>-->
-            <!--                </div>-->
-            <!--              </div>-->
-            <!--            </swiper-slide>-->
-            <!--            <swiper-slide>-->
-            <!--              <div class="img-content">-->
-            <!--                <img src="../assets/img/img-service-01.png">-->
-            <!--                <p class="h3">網站建置</p>-->
-            <!--                <p>品牌形象網站</p>-->
-            <!--                <p>一頁式網站</p>-->
-            <!--                <div class="flex justify-end">-->
-            <!--                  <UButton label="More" class="h4">-->
-            <!--                    <template #trailing>-->
-            <!--                      <UIcon name="i-heroicons-arrow-right-20-solid"/>-->
-            <!--                    </template>-->
-            <!--                  </UButton>-->
-            <!--                </div>-->
-            <!--              </div>-->
-            <!--            </swiper-slide>-->
           </swiper-container>
         </div>
       </section>
