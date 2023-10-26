@@ -180,7 +180,7 @@ main {
 
 header {
   position: relative;
-  width: 100%;
+  width: 100vw;
   top: 0;
   transition: 1s;
   background-color: transparent;
@@ -584,6 +584,7 @@ header {
 
 
 footer {
+  width: 100vw;
   display: flex;
   justify-content: center;
   flex-direction: column;

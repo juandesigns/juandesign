@@ -24,6 +24,9 @@ const options: NuxtFacebookChatOptions = {
   pageId: "122487314278162",  // Your Facebook Page ID
   themeColor: "#f87171",      // Customize the chat theme color
 };
+definePageMeta({
+  colorMode: 'light',
+})
 </script>
 
 <style>
