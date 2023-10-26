@@ -33,8 +33,16 @@ import itemImg_04 from "../../assets/img/img-case-04.png";
 import itemImg_05 from "../../assets/img/img-case-05.png";
 import itemImg_06 from "../../assets/img/img-case-06.png";
 import itemImg_07 from "../../assets/img/img-case-07.png";
+import itemImg_08 from "../../assets/img/img-case-08.png";
 
 const type = [
+  {
+    href: '/case/shipping',
+    title: '臺瑞集運官網建置',
+    src: itemImg_08,
+    item_01: '2023/10',
+    item_02: '官網包含常見問題、客戶好評、品牌優勢等資訊傳遞，透過不同運送及品項，提供對應試算運費功能，降低人力負載，提高經營效率，採用AWS雲服務及專屬域名，同時展示品牌專業形象。',
+  },
   {
     href: '/case/laundry',
     title: '新光白洗衣店LINE@預約收送',
