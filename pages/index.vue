@@ -176,14 +176,13 @@ const onSlideChange = (e) => {
   console.log('slide changed')
 }
 
-
 useSeoMeta({
-  title: 'JuanDesign',
-  ogTitle: 'JuanDesign|打造屬於你的網站',
-  description: '提供高質感網站設計，擁有多元化客製方案，打造屬於你的網站，樹立獨一無二的品牌',
-  ogDescription: '提供高質感網站設計，擁有多元化客製方案，打造屬於你的網站，樹立獨一無二的品牌',
-  ogImage: 'https://lurl.cc/NNKlV',
-  // twitterCard: 'summary_large_image',
+  title: 'JuanDesign｜打造屬於你的網站',
+  ogTitle: 'JuanDesign-打造屬於你的網站',
+  description: '提供高質感網站設計，擁有多元化客製方案，樹立獨一無二的品牌',
+  ogDescription: '提供高質感網站設計，擁有多元化客製方案，樹立獨一無二的品牌',
+  ogImage: 'https://juandesign.tw/favicon.ico',
+  twitterCard: 'summary_large_image',
 })
 
 const type = [
