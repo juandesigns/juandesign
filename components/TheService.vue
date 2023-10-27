@@ -10,7 +10,7 @@
       </div>
       <div class="flex flex-wrap justify-end w-80 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         <div v-for="file in type" :key="file.title">
-          <TheImgContent :href="file.href" :src="file.src" :title="file.title" :item_01="file.item_01"
+          <TheImgContent :href="file.href" :src="file.src" :alt="file.alt" :title="file.title" :item_01="file.item_01"
                          :item_02="file.item_02"/>
         </div>
       </div>
@@ -30,6 +30,7 @@ const type = [
   {
     href: '/service/website',
     title: '網站建置',
+    alt:'網站建置',
     src: itemImg_01,
     item_01: '品牌形象網站',
     item_02: '一頁式網站',
@@ -37,6 +38,7 @@ const type = [
   {
     href: '/service/websetup',
     title: '網站架設與網域',
+    alt:'網站架設與網域',
     src: itemImg_02,
     item_01: '客製化網域',
     item_02: '虛擬主機架設',
@@ -44,6 +46,7 @@ const type = [
   {
     href: '/service/develop',
     title: '軟體開發',
+    alt:'軟體開發',
     src: itemImg_03,
     item_01: '前端/後端開發',
     item_02: '爬蟲程式服務',
@@ -51,6 +54,7 @@ const type = [
   {
     href: '/service/uiux',
     title: 'UIUX設計及切版',
+    alt:'UIUX設計及切版',
     src: itemImg_04,
     item_01: 'UI/UX設計',
     item_02: '網頁切版服務',
@@ -58,6 +62,7 @@ const type = [
   {
     href: '/service/brand',
     title: '品牌經營與推廣',
+    alt:'品牌經營與推廣',
     src: itemImg_05,
     item_01: 'LINE@BOT 建立',
     item_02: 'FB messenger 交談功能',

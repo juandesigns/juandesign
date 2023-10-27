@@ -72,6 +72,10 @@
 import {ref} from 'vue'
 import { object, string, InferType } from 'yup'
 import type {FormError, FormSubmitEvent} from '@nuxt/ui/dist/runtime/types'
+useSeoMeta({
+  title: 'JuanDesign｜聯絡我們',
+  ogTitle: 'JuanDesign-聯絡我們',
+})
 
 const form = ref()
 

@@ -5,7 +5,7 @@
       <div class="container flex flex-col">
         <div class="flex flex-col items-center">
           <div class="flex justify-center relative">
-            <img width="138" src="../assets/img/img-title-process.png">
+            <img alt="服務流程" width="138" src="../assets/img/img-title-process.png">
             <span class="h2 title-tag whitespace-nowrap">服務流程</span>
           </div>
         </div>
@@ -36,7 +36,7 @@
             <div class="process-item">
               <p class="text-center h3">1.<br/>需求討論</p>
               <div class="process-item-icon">
-                <img src="../assets/img/icon/icon-step-1.svg">
+                <img alt="需求討論" src="../assets/img/icon/icon-step-1.svg">
               </div>
             </div>
           </swiper-slide>
@@ -44,7 +44,7 @@
             <div class="process-item">
               <p class="text-center h3">2.<br/>提供報價</p>
               <div class="process-item-icon">
-                <img src="../assets/img/icon/icon-step-2.svg">
+                <img alt="提供報價" src="../assets/img/icon/icon-step-2.svg">
               </div>
             </div>
           </swiper-slide>
@@ -52,7 +52,7 @@
             <div class="process-item">
               <p class="text-center h3">3.<br/>簽訂合約</p>
               <div class="process-item-icon">
-                <img src="../assets/img/icon/icon-step-3.svg">
+                <img alt="簽訂合約" src="../assets/img/icon/icon-step-3.svg">
               </div>
             </div>
           </swiper-slide>
@@ -60,7 +60,7 @@
             <div class="process-item">
               <p class="text-center h3">4.<br/>預收訂金</p>
               <div class="process-item-icon">
-                <img src="../assets/img/icon/icon-step-4.svg">
+                <img alt="預收訂金" src="../assets/img/icon/icon-step-4.svg">
               </div>
             </div>
           </swiper-slide>
@@ -68,7 +68,7 @@
             <div class="process-item">
               <p class="text-center h3">5.<br/>驗收修正</p>
               <div class="process-item-icon">
-                <img src="../assets/img/icon/icon-step-5.svg">
+                <img alt="驗收修正" src="../assets/img/icon/icon-step-5.svg">
               </div>
             </div>
           </swiper-slide>
@@ -76,7 +76,7 @@
             <div class="process-item">
               <p class="text-center h3">6.<br/>完成交付</p>
               <div class="process-item-icon">
-                <img src="../assets/img/icon/icon-step-6.svg">
+                <img alt="完成交付" src="../assets/img/icon/icon-step-6.svg">
               </div>
             </div>
           </swiper-slide>
@@ -84,7 +84,7 @@
             <div class="process-item">
               <p class="text-center h3">7.<br/>收取尾款</p>
               <div class="process-item-icon">
-                <img src="../assets/img/icon/icon-step-7.svg">
+                <img alt="收取尾款" src="../assets/img/icon/icon-step-7.svg">
               </div>
             </div>
           </swiper-slide>
@@ -254,8 +254,12 @@
 <script setup>
 import {register} from 'swiper/element/bundle';
 import TheService from "../components/TheService";
-
 register();
+
+useSeoMeta({
+  title: 'JuanDesign｜常見問題',
+  ogTitle: 'JuanDesign-常見問題',
+})
 
 const spaceBetween = 10;
 const onProgress = (e) => {
