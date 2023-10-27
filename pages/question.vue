@@ -99,7 +99,7 @@
             <div class="flex grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
               <p>可以透過以下方式聯繫我們</p>
               <ul class="list-[square] pl-4 leading-8">
-                <li>Facebook：juandesign.studios
+                <li>Facebook：Juan Design
                   <a target="_blank"
                      class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
                      href="https://www.facebook.com/juandesign.studios">前往聯繫</a>
