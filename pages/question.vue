@@ -99,17 +99,22 @@
             <div class="flex grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
               <p>可以透過以下方式聯繫我們</p>
               <ul class="list-[square] pl-4 leading-8">
-                <li>Facebook粉絲專頁
+                <li>Facebook：juandesign.studios
                   <a target="_blank"
                      class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
                      href="https://www.facebook.com/juandesign.studios">前往聯繫</a>
                 </li>
-                <li>IG 粉絲專頁
+                <li>IG：juandesign.studios
                   <a target="_blank"
                      class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
                      href="https://www.instagram.com/juandesign.studios/">前往聯繫</a>
                 </li>
-                <li>Email
+                <li>Line：@798esgzv
+                  <a target="_blank"
+                     class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
+                     href="https://lin.ee/nrlTXAh">加入好友</a>
+                </li>
+                <li>Email：juandesign.studios@gmail.com
                   <a target="_blank"
                      class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
                      href="mailto:juandesign.studios@gmail.com">立即寄信</a>
@@ -254,6 +259,7 @@
 <script setup>
 import {register} from 'swiper/element/bundle';
 import TheService from "../components/TheService";
+
 register();
 
 useSeoMeta({

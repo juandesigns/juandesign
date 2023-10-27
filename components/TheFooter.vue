@@ -10,15 +10,15 @@
           <h3 class="footer-title">相關社群</h3>
           <ul class="community">
             <li>
-              <a href="" target="_blank">
-                <img src="../assets/img/icon/i_fb.svg" alt="https://www.facebook.com/profile.php?id=61550725657778"></a>
+              <a href="https://www.facebook.com/juandesign.studios" target="_blank">
+                <img src="../assets/img/icon/i_fb.svg" alt="juandesign.studios"></a>
             </li>
-<!--            <li><a href="" target="_blank">-->
-<!--              <img src="../assets/img/icon/i_line.svg" alt=""></a>-->
-<!--            </li>-->
             <li>
-              <a href="" target="_blank">
-                <img src="../assets/img/icon/i_ig.svg" alt="https://www.instagram.com/juandesign.studios/"></a>
+              <a href="https://www.instagram.com/juandesign.studios/" target="_blank">
+                <img src="../assets/img/icon/i_ig.svg" alt="juandesign.studios"></a>
+            </li>
+            <li><a href="https://lin.ee/nrlTXAh" target="_blank">
+              <img src="../assets/img/icon/i_line.svg" alt="https://lin.ee/nrlTXAh"></a>
             </li>
           </ul>
           <h3 class="footer-title">聯絡信箱</h3>

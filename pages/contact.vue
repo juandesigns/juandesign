@@ -16,7 +16,12 @@
             <li>IG |
               <a target="_blank"
                  class="text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
-                 href="https://www.instagram.com/juandesign.studios/">@juandesign.studios</a>
+                 href="https://www.instagram.com/juandesign.studios/">juandesign.studios</a>
+            </li>
+            <li>Line@ | @798esgzv
+              <a target="_blank"
+                 class=" text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
+                 href="https://lin.ee/nrlTXAh">立即加入</a>
             </li>
             <li>Email | <br class="mobile"/>
               <a target="_blank"

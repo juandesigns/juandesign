@@ -4,8 +4,7 @@
     <nav>
       <NuxtLink class="logo" to="/">
         <img class="desk" width="121" src="../assets/img/img-logo.svg" alt="JuanDesign">
-        <img class="mobile py-1.5" width="254" src="../assets/img/img-logo-m.svg" alt="JuanDesign">
-
+        <img class="mobile py-1.5" width="254" src="../assets/img/img-logo-m.svg" alt="juan design">
       </NuxtLink>
 
       <div class="menu-warp desk">
@@ -34,12 +33,12 @@
           <ul class="menu-list">
             <div class="flex w-100">
               <li class="item flex col-6">
-                <img src="../assets/img/icon/i_fb.svg"/>
+                <img alt="juandesign.studios" src="../assets/img/icon/i_fb.svg"/>
                 <a target="_blank" href="https://www.facebook.com/juandesign.studios">Facebook</a>
               </li>
               <li class="item flex col-6">
-                <img src="../assets/img/icon/i_ig.svg"/>
-                <a target="_blank" href="https://www.instagram.com/juandesign.studios/">Instagram</a>
+                <img alt="juandesign.studios" src="../assets/img/icon/i_line.svg"/>
+                <a target="_blank" href="https://lin.ee/nrlTXAh">Line@</a>
               </li>
             </div>
             <li class="item">
