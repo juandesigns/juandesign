@@ -14,15 +14,15 @@
             </li>
             <li>頁面有開發功能需求，請參照 <a
                 class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
-                href="/service/uiux">軟體開發服務</a>
+                href="/service/develop">軟體開發服務</a>
             </li>
             <li>網站需要架設及專屬域名，請參照 <a
                 class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
-                href="/service/uiux">網站架設及域名服務</a>
+                href="/service/websetup">網站架設及域名服務</a>
             </li>
             <li>需要Fb交談按鈕 或 Line@機器人建置，請參照 <a
                 class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
-                href="/service/uiux">品牌經營與推廣服務</a>
+                href="/service/brand">品牌經營與推廣服務</a>
             </li>
           </ul>
           <h3 class="mt-8 font-bold">網設設計需要自行提供什麼呢？</h3>
