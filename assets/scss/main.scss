@@ -214,7 +214,7 @@ header {
     @include lg {
       padding: 0;
       margin-bottom: 0;
-      justify-content: start;
+      justify-content: flex-start;
       img {
         object-fit: contain;
         object-position: left;
@@ -604,7 +604,7 @@ footer {
 
   .footer-warp {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     justify-content: space-between;
     padding: 40px 0;
     @include lg {
@@ -626,7 +626,7 @@ footer {
       }
 
       @include lg {
-        align-items: start;
+        align-items: flex-start;
         margin-bottom: 30px;
         margin-right: 0;
         width: 100%;
