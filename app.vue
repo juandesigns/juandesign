@@ -1,7 +1,6 @@
 <template>
   <div>
     <TheHeader/>
-
     <NuxtLayout>
       <NuxtPage></NuxtPage>
     </NuxtLayout>
@@ -9,10 +8,7 @@
       <nuxt-facebook-chat :options="options"/>
     </client-only>
     <TheFooter/>
-
-    <!--    <UButton>123</UButton>-->
-    <!--    <UIcon name="i-heroicons-home"></UIcon>-->
-
+    <link rel="icon" href="https://juandesign.tw/favicon.ico">
   </div>
 </template>
 

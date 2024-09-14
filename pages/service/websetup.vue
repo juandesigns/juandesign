@@ -8,8 +8,10 @@
           <h1>網站架設及自訂義網域 <span class="h2">$8000</span></h1>
           <p class="font-bold">服務說明：</p>
           <ul class="list-[square] pl-4 leading-8">
-            <li>我們是採用顧問服務，包含協助業主申請帳號，採買斷式的形式，僅收取一次性設定費用，包含架設、相關設定、協助申請帳號，這是我們的特點！</li>
-            <li>協助申請雲平台( <span class="font-bold ">Amazon Web Service/ Google Cloud Platform </span> )</li>
+            <li>
+              我們是採用顧問服務，包含協助業主申請帳號，採買斷式的形式，僅收取一次性設定費用，包含架設、相關設定、協助申請帳號，這是我們的特點！
+            </li>
+            <li>協助申請雲平台( <span class="font-bold ">Amazon Web Service</span> )</li>
             <li>協助申請 <span class="font-bold">GoDaddy</span> 域名帳號</li>
             <li>後續每月流量服務或每年域名費用，由客戶專屬帳號的信用卡由平台直接跟收取，就不會透過我們</li>
             <li>特點：無需維護費跟手續費</li>
@@ -22,12 +24,13 @@
               <a class="border-b-2 border-red-300 text-red-400 pr-1 font-bold"
                  href="https://aws.amazon.com/tw/s3/?did=ft_card&trk=ft_card">Amazon S3 免費方案
               </a>
+              <img class="w-52 my-5" src="@/assets/img/img-aws-certified.png">
             </li>
-            <li>Google Cloud Platform為google提供雲平台，提供免費額度300美金，相關說明：
-              <a class="border-b-2 border-red-300 text-red-400 pr-1 font-bold"
-                 href="https://cloud.google.com/free?hl=zh-tw">GCP 免費方案產品
-              </a>
-            </li>
+<!--            <li>Google Cloud Platform為google提供雲平台，提供免費額度300美金，相關說明：-->
+<!--              <a class=" border-b-2 border-red-300 text-red-400 pr-1 font-bold"-->
+<!--                 href="https://cloud.google.com/free?hl=zh-tw">GCP 免費方案產品-->
+<!--              </a>-->
+<!--            </li>-->
             <li>GoDaddy為全球最大購買域名平台，可預先試算的域名費用，
               <a class="border-b-2 border-red-300 text-red-400 pr-1 font-bold"
                  href="https://tw.godaddy.com/offers/godaddy?isc=disc965842&countryview=1&currencyType=TWD&cdtl=c_20012948307.g_146146597897.k_aud-957928787989:kwd-88659201.a_655882536885.d_c.ctv_g&bnb=b&gad_source=1&gclid=CjwKCAjwkNOpBhBEEiwAb3MvvY-K_3WViAitT8qhjgfaNNn73FxqATrJyER-KxdZZYp6tT7DnHD3bBoCQmkQAvD_BwE">前往試算域名價格
@@ -81,6 +84,7 @@
 <script setup>
 import TheBanner from '../../components/TheBanner.vue'
 </script>
+
 
 <style scoped>
 
