@@ -98,7 +98,7 @@ const type = [
     item_02: '針對無障礙族群個人金融專區，提供存匯帳務、金融資訊等核心功能，整體設計以提高辨別度、可視性、操作易用性目標。',
   },
   {
-    href: '/case/login',
+    href: '/case/loginOptimization',
     title: '行動App登入優化',
     alt:"行動App登入優化",
     src: itemImg_04,
