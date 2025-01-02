@@ -59,7 +59,6 @@
             :slides-per-view="1"
             :centered-slides="false"
             @progress="onProgress"
-            @slidechange="onSlideChange"
         >
           <swiper-slide class="pb-10 object-cover">
             <img src="../../assets/img/enterprise-img-03.png"/>
@@ -128,12 +127,8 @@ register();
 const spaceBetween = 20;
 const onProgress = (e) => {
   const [swiper, progress] = e.detail;
-  console.log(progress)
 };
 
-const onSlideChange = (e) => {
-  console.log('slide changed')
-}
 </script>
 
 <style scoped>

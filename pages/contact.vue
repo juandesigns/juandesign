@@ -127,7 +127,6 @@ async function submit(event: FormSubmitEvent<Schema>) {
     event.data.content = ''
   }).catch(err => {
     window.alert('發送表單失敗...' + err)
-    console.log(err)
   })
 }
 

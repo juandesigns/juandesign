@@ -30,7 +30,6 @@
               },
           }"
             @progress="onProgress"
-            @slidechange="onSlideChange"
         >
           <swiper-slide>
             <div class="process-item">
@@ -270,12 +269,8 @@ useSeoMeta({
 const spaceBetween = 10;
 const onProgress = (e) => {
   const [swiper, progress] = e.detail;
-  console.log(progress)
 };
 
-const onSlideChange = (e) => {
-  console.log('slide changed')
-}
 const items = [
   {
     label: '1.有什麼聯絡方式？',

@@ -49,7 +49,6 @@
             },
           }"
               @progress="onProgress"
-              @slidechange="onSlideChange"
           >
             <swiper-slide>
               <div class="process-item">
@@ -172,12 +171,7 @@ register();
 const spaceBetween = 10;
 const onProgress = (e) => {
   const [swiper, progress] = e.detail;
-  console.log(progress)
 };
-
-const onSlideChange = (e) => {
-  console.log('slide changed')
-}
 
 // useSeoMeta({
 //   title: 'JuanDesign｜打造屬於你的網站',
