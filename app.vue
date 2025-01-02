@@ -8,7 +8,6 @@
       <nuxt-facebook-chat :options="options"/>
     </client-only>
     <TheFooter/>
-    <link rel="icon" href="https://juandesign.tw/favicon.ico">
   </div>
 </template>
 
