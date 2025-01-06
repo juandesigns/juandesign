@@ -17,14 +17,14 @@
     <section class="flex justify-center bg-tag">
       <div class="container p-6 lg:p-8 grid grid-cols-1 lg:grid-cols-2 gap-y-6">
         <ul class="list-[square] pl-4 leading-8">
-          <li>時程：2023/9</li>
+          <li>時程：2025/1</li>
           <li>範圍：開發預約收送通知功能</li>
           <li>狀態：已上線</li>
         </ul>
         <ul class="list-[square] pl-4 leading-8">
           <li>合作商家：新白光洗衣店</li>
-          <li>LINE@：<a target="_blank" href="https://liff.line.me/1645278921-kWRPP32q/?accountId=978nvgpx"
-                       class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300">立即加入LINE@</a>
+          <li>前往查看：<a target="_blank" href="https://liff.line.me/1645278921-kWRPP32q/?accountId=978nvgpx"
+                       class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300">LINE@ 新白光洗衣店</a>
           </li>
         </ul>
       </div>
