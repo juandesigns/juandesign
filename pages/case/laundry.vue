@@ -1,10 +1,10 @@
 <template>
   <div class="service-inner">
-    <TheBanner :title="'相關案例'" :description="'新光白洗衣店LINE@預約收送'"/>
+    <TheBanner :title="'相關案例'" :description="'新光白洗衣店LINE@預約訂單'"/>
     <section class="inner-block flex flex-col items-center">
       <div class="container">
         <div class="flex-col grid gap-y-6 text-left lg:text-center">
-          <h1>新光白洗衣店LINE@預約收送</h1>
+          <h1>新光白洗衣店LINE@預約訂單</h1>
           <p>整合LINE@與Google Sheet，打造智慧化訂單管理系統，讓客戶感受到即時回應與貼心服務。</p>
           <p>當客戶下單後，系統自動將訂單資訊存入Google Sheet，確保資料即時更新與集中管理。</p>
           <p>透過LINE Notify功能，商家能即時接收訂單通知，有效減少漏單或延遲處理的風險，</p>

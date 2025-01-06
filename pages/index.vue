@@ -185,16 +185,16 @@ const onProgress = (e) => {
 const type = [
   {
     href: '/case/shipping',
-    title: '臺瑞集運官網建置',
-    alt:"臺瑞集運官網建置",
+    title: '臺瑞集運官方網站',
+    alt:"臺瑞集運官方網站",
     src: itemImg_08,
     item_01: '2024/10',
     item_02: '網站整合常見問題、客戶好評與品牌優勢，快速提供資訊，提升信任感。運費試算功能自動計算費用，減少人力成本，提升效率。網站架設於AWS雲端，使用專屬域名，穩定安全，展現品牌專業價值。',
   },
   {
     href: '/case/laundry',
-    title: '新光白洗衣店LINE@預約收送',
-    alt:"新光白洗衣店LINE@預約收送",
+    title: '新光白洗衣店LINE@預約訂單',
+    alt:"新光白洗衣店LINE@預約訂單",
     src: itemImg_07,
     item_01: '2023/9',
     item_02: '整合LINE@與Google Sheet，實現自動訂單管理。訂單資訊自動記錄，商家即時查閱，透過LINE Notify即時接收通知。客戶同步收到預約確認，提升服務體驗與信任感。',

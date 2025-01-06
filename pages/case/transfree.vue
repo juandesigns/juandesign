@@ -3,10 +3,13 @@
     <TheBanner :title="'相關案例'" :description="'全台公車動態時刻查詢應用服務'"/>
     <section class="inner-block flex flex-col items-center">
       <div class="container">
-        <div class="flex flex-col grid gap-y-6">
+        <div class="flex-col grid gap-y-6 text-left lg:text-center">
           <h1>全台公車動態時刻查詢應用服務 TransFree</h1>
-          <p>
-            TransFree意涵使用者能自由地暢遊，以全台公車應用服務為目標，使用者包含一般族群、外國旅客、長青族等等，期許每個人皆能友善使用。TransFree提供公車搜尋、附近站牌、常用公車、設定等服務，並適應多裝置尺寸，個性化多種設定能讓不同使用者皆能清楚地接收資訊。</p>
+          <p>TransFree是一款專為全台公車服務打造的應用程式，旨在讓每位使用者都能輕鬆暢遊。<br/>無論是一般族群、外國旅客或長青族，TransFree皆提供友善且易於使用的介面。
+          </p>
+          <p>主要功能包含公車路線搜尋、附近站牌查詢、常用公車管理與個人化設定，滿足不同需求。<br/>系統能自適應各種裝置尺寸，確保資訊清楚呈現，提升使用體驗。
+          </p>
+          <p>希望透過便捷的公車資訊服務，讓每個人都能享受更自由的移動方式，打造無障礙、貼心的數位旅程助手。</p>
         </div>
         <swiper-container
             class="swiper-index"
@@ -17,10 +20,12 @@
             @progress="onProgress"
         >
           <swiper-slide class="mb-10 object-cover">
-            <img src="../../assets/img/transfree-banner-01.png"/>
+            <img class="hidden md:block" src="../../assets/img/transfree-banner-01.png"/>
+            <img class="block md:hidden" src="../../assets/img/img-case-06.png"/>
           </swiper-slide>
           <swiper-slide class="mb-10 object-cover">
-            <img src="../../assets/img/transfree-banner-02.png"/>
+            <img class="hidden md:block" src="../../assets/img/transfree-banner-02.png"/>
+            <img class="block md:hidden" src="../../assets/img/transfree-banner-02-m.png"/>
           </swiper-slide>
         </swiper-container>
       </div>
@@ -30,81 +35,108 @@
         <ul class="list-[square] pl-4 leading-8">
           <li>舉辦單位：六角學院、交通部聯合</li>
           <li>時程：2021/11</li>
-          <li>團體名稱：TransFree</li>
-          <li>獎項：團體組入圍獎</li>
-          <li>成員：三位前端工程師、一位UIUX</li>
+          <li>使用技術：Figma、Zeplin、HTML、CSS、Vue</li>
         </ul>
         <ul class="list-[square] pl-4 leading-8">
-          <li>Figma：
-            <a target="_blank"
-               class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
-               href="https://www.figma.com/file/RUxcSUqcSV7R3mQCXsaXBz/F2E-transfree_Mockup?node-id=0%3A1">線上UI設計稿</a>
-          </li>
-          <li>Github：
-            <a target="_blank"
-               class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
-               href="https://begoniasuccess.github.io/transfree/index#/search-bus">線上觀看前端</a>
-          </li>
           <li>The F2E：
             <a target="_blank"
                class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
                href="https://2021.thef2e.com/users/6296427084285739902/">團體組｜TransFree</a>
           </li>
-
-          <li>介面設計：Figma、Zeplin</li>
-          <li>使用技術：HTML、CSS、Vue</li>
+          <li>Figma：
+            <a target="_blank"
+               class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
+               href="https://www.figma.com/file/RUxcSUqcSV7R3mQCXsaXBz/F2E-transfree_Mockup?node-id=0%3A1">網頁設計</a>
+          </li>
+          <li>前往查看：
+            <a target="_blank"
+               class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
+               href="https://begoniasuccess.github.io/transfree/index#/search-bus">TransFree</a>
+          </li>
         </ul>
       </div>
     </section>
-    <section class=" inner-block flex justify-center">
+    <section class="inner-block flex justify-center">
       <div class="container">
-        <div class="flex flex-col grid gap-y-6">
-          <h2 class="color-title font-bold mb-8">User Experience</h2>
-          <p>進行設計之前，我們必須更了解產品的使用者，才能精準的抓到使用者的特質與需求，團隊的討論與訪談，實際搭乘台北市公車進行觀察使用者行為，我們描繪出使用者的的樣貌。<br/><br/>
-            使用者族群廣泛不同年齡、國別、無障礙，對於不同使用者提供友善的介面設定，我們選定以無障礙、多語系、字體大小，多種客製化將資訊傳達完整，分析同類型競品功能，將著重功能進行以卡片分類法進行分類。</p>
+        <div class="flex-col grid gap-y-6">
+          <h2 class="color-title font-bold mb-8">使用者體驗 User Experience</h2>
+          <p>
+            TransFree是一款專為全台公車服務設計的應用程式，致力於提供每位使用者流暢便捷的乘車體驗。為了精準掌握使用者需求與特質，團隊透過討論、訪談及實際搭乘台北市公車觀察，深入描繪使用者樣貌。</p>
+          <p>
+            針對不同年齡層、國籍及無障礙需求的使用者，設計出友善且彈性的介面設定。主要功能包括公車路線搜尋、附近站牌查詢、常用公車管理以及多元個人化設定。系統具備自適應能力，能完美適配各種裝置尺寸，確保資訊清晰易讀。</p>
+          <p>
+            特別著重於無障礙設計、多語系支援及字體大小調整，確保資訊能完整傳達，讓不同族群都能順暢使用。此外，團隊深入分析同類型競品，並透過卡片分類法精煉與強化核心功能。</p>
+
           <img src="../../assets/img/transfree-img-01.png"/>
-          <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6">
             <div class="flex flex-col">
-              <h2 class="color-title font-bold my-8">API(資源分配)</h2>
-              <p>在決定需求功能後，未求整體開發順利，應該先初步評估現有資源，並妥善分配，掌握手中可用的系統、平台及硬體資源，並選擇最佳方案。</p>
+              <h2 class="color-title font-bold my-8">API 資源分配</h2>
+              <p>
+                在確認需求功能後，為確保開發流程順利進行，應先對現有資源進行初步評估與妥善分配。全面掌握可用的系統、平台及硬體資源，並選擇最優解決方案，以提升整體開發效率與成果。</p>
             </div>
             <img alt="API(資源分配)" class="mt-8 sm:mt-0" src="../../assets/img/transfree-img-02.png"/>
           </div>
 
-          <h2 class="color-title font-bold my-8">Wireframe</h2>
-          <p>執行先前的步驟後，有效率的串起零散的概念與資訊，呈現出產品大致上的模樣、功能與流程，整體以卡片式設計及一頁式呈現，著重於使用者能快速搜尋有用資訊。</p>
+          <h2 class="color-title font-bold my-8">網站線框圖 Wireframe</h2>
+          <p>
+            經過前期規劃與執行，我們高效整合零散概念與資訊，逐步勾勒產品雛形、功能與流程。整體設計採用卡片式與一頁式呈現，強調使用者能迅速查找並獲取所需資訊，提升操作體驗與效率。</p>
           <img src="../../assets/img/transfree-img-03.png"/>
 
-          <h2 class="color-title font-bold my-8">Guideline</h2>
-          <p>整體配色以明亮做為設計，明亮是希望能讓使用者在找尋資訊的過程中，不會有壓迫及焦慮的情緒，但在色系特別選用容易辨別的顏色，在文字大小、公車不同狀態的呈現顏色依然很清楚的呈現。</p>
+          <h2 class="color-title font-bold my-8">設計準則 Guideline</h2>
+          <p>
+            網站整體配色以明亮風格為核心，旨在營造舒適且無壓的查詢環境，降低使用者在尋找資訊時的焦慮感。我們精選高辨識度色系，確保不同公車狀態與文字資訊均能清晰呈現。透過適當的字體大小與色彩區分，使關鍵資訊一目了然，即使在視覺負擔較高的場景下，依然能確保流暢且直觀的操作體驗。</p>
           <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6">
             <img alt="API(資源分配)" class="mt-8 sm:mt-0" src="../../assets/img/transfree-img-04.png"/>
             <div class="flex flex-col">
               <h2 class="color-title font-bold my-8">LOGO</h2>
               <img alt="API(資源分配)" class="mb-8" src="../../assets/img/transfree-img-05.png"/>
-              <p>TransFree為從Trans及Free為發想，希望使用者能自由地暢遊，融合星球地標的元素，表達行動能夠無拘束地到達使用者想去的目的地。</p>
+              <p>
+                TransFree為從Trans及Free為發想，希望使用者能自由地暢遊，融合星球地標的元素，表達行動能夠無拘束地到達使用者想去的目的地。</p>
             </div>
           </div>
           <h2 class="color-title font-bold my-8">Mockup-Web(768px以上)</h2>
-          <div class="lg:p-8 grid grid-cols-1 gap-x-6 gap-y-8">
+          <div class="lg:p-8 grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-8">
             <ul class="list-[square] pl-4 leading-8">
-              <li><span class="font-bold">「公車搜尋」</span>以公車為搜尋條件，查詢對應公車，針對平常搭公車使用者提供動態公車顯示，共有動態列表及地圖顯示模式，用頁籤方式為快速切換，Icon呈現以書籤為發想。特別以動態鍵盤設計，協助快速找尋資訊，針對無障礙及長青族也能提高易用性。
-              </li>
-              <li><span class="font-bold">「附近站牌」</span>以站牌為查詢的條件，針對擁有明確目的地的使用者，能夠從目的地找尋前往搭乘的公車路線。</li>
+              <li><h3 class="font-bold mb-4">公車動態查詢，出行更輕鬆</h3></li>
+              <img src="../../assets/img/transfree-img-06.png"/>
+              <p>針對日常搭乘公車的使用者，我們提供即時動態公車資訊，結合動態列表與地圖顯示，讓您隨時掌握公車動態。</p>
+              <p>頁籤式設計實現模式快速切換，Icon設計靈感來自書籤，簡單直觀，一鍵切換所需資訊。</p>
+            </ul>
+            <ul class="list-[square] pl-4 leading-8">
+              <li><h3 class="font-bold mb-4">附近站牌查詢，快速掌握搭車路線</h3></li>
+              <img src="../../assets/img/transfree-img-07.png"/>
+              <p>針對擁有明確目的地的使用者，我們提供站牌為核心的查詢方式，讓您能輕鬆從目的地反向查找合適的公車路線。</p>
+              <p>無論是規劃行程或臨時出行，只需輸入站牌，即可即時獲取相關路線與班次資訊，幫助您快速找到最近的搭乘方式，提升出行效率。</p>
+            </ul>
+            <ul class="list-[square] pl-4 leading-8">
+              <li><h3 class="font-bold mb-4">個人化設定，滿足多元需求</h3></li>
+              <img src="../../assets/img/transfree-img-08.png"/>
+              <p>我們提供靈活的個人化設定，打造更貼心的使用體驗。版本分為一般模式與友善無障礙專區，確保每位使用者都能輕鬆操作。</p>
+              <p>支援中文與英文語言切換，讓外國旅客也能無障礙查詢。同時提供字體大小調整功能，讓長輩能更清晰閱讀資訊，出行更安心</p>
+            </ul>
+            <ul class="list-[square] pl-4 leading-8">
+              <li><h3 class="font-bold mb-4">常用公車清單，出行更便捷</h3></li>
+              <img src="../../assets/img/transfree-img-09.png"/>
+              <p>打造個人化公車清單，讓日常搭乘更加高效。您可將常用公車路線加入清單，方便下次快速查找，隨時掌握班次與即時動態。</p>
+              <p>支援一般模式與友善無障礙專區，並提供中英文切換，滿足不同使用者需求。字體大小可調整，確保資訊清晰易讀，無論是日常通勤或偶爾出行，都能享受更便捷的搭乘體驗。</p>
             </ul>
           </div>
-          <img src="../../assets/img/transfree-img-06.png"/>
-          <div class="lg:p-8 grid grid-cols-1 gap-x-6 gap-y-8">
-            <ul class="list-[square] pl-4 leading-8">
-              <li><span class="font-bold">「個人設定」</span>提供個人化設計，版本提供一般版本、友善專區(無障礙)，語言提供中文、英文(外國旅客)，字體大小提供長輩們更清楚觀看資訊。</li>
-              <li><span class="font-bold">「附近站牌」</span>提供使用者將自己常用的公車加入清單，方便能下次使用，也能更快速找到自己常搭的公車及相關資訊。</li>
-            </ul>
-          </div>
-          <img src="../../assets/img/transfree-img-07.png"/>
+
           <h2 class="color-title font-bold my-8">Mockup-Mobile(768px以下)</h2>
-          <p>
-            針對手機版呈現不同的header及側選單呈現，符合手機用戶操作，畫面以最有效率的方式呈現。像是公車相關資訊或動態鍵盤等等，延伸功能以彈跳視窗呈現，操作流程單一呈現，聚焦在當下使用者所需要資訊，不提供多餘資訊在畫面，以免造成使用者的混淆。</p>
-          <img src="../../assets/img/transfree-img-08.png"/>
+          <div class="lg:p-8 grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-8">
+            <ul class="list-[square] pl-4 leading-8">
+              <li><h3 class="font-bold mb-4">公車搜尋更直覺，動態快速直達</h3></li>
+              <img class="shadow" src="../../assets/img/transfree-img-10.png"/>
+            </ul>
+            <ul class="list-[square] pl-4 leading-8">
+              <li><h3 class="font-bold mb-4">路線即查即得，資訊一手掌握</h3></li>
+              <img class="shadow" src="../../assets/img/transfree-img-11.png"/>
+            </ul>
+            <ul class="list-[square] pl-4 leading-8">
+              <li><h3 class="font-bold mb-4">設定隨心調整，功能快速切換</h3></li>
+              <img class="shadow" src="../../assets/img/transfree-img-12.png"/>
+            </ul>
+          </div>
         </div>
       </div>
     </section>

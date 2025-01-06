@@ -1,10 +1,10 @@
 <template>
   <div class="service-inner">
-    <TheBanner :title="'相關案例'" :description="'臺瑞集運官網建置'"/>
+    <TheBanner :title="'相關案例'" :description="'臺瑞集運官方網站'"/>
     <section class="inner-block flex flex-col items-center">
       <div class="container">
         <div class="flex-col grid gap-y-6 text-left lg:text-center">
-          <h1>臺瑞集運官網建置</h1>
+          <h1>臺瑞集運官方網站</h1>
           <p>針對網站提升品牌形象與使用者體驗，整合常見問題、客戶好評與品牌優勢等功能，快速提供資訊，增進信任感。</p>
           <p>運費試算功能自動計算費用，減少人力成本，提升營運效率，為消費者帶來便捷。</p>
           <p>網站架設於AWS雲端，使用專屬域名，確保穩定與安全，展現品牌專業價值，是品牌與顧客的重要橋樑。</p>
@@ -22,8 +22,8 @@
         </ul>
         <ul class="list-[square] pl-4 leading-8">
           <li>合作商家：臺瑞集運</li>
-          <li>網站類型 | 一頁式網站</li>
-          <li>前往查看 | <a target="_blank" href="https://terryshipping.tw/"
+          <li>網站類型：一頁式網站</li>
+          <li>前往查看：<a target="_blank" href="https://terryshipping.tw/"
                             class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300">terry.shipping.tw</a>
           </li>
         </ul>
