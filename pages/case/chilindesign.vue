@@ -86,10 +86,10 @@
 import TheBanner from '../../components/TheBanner.vue'
 useSeoMeta({
   title: 'JuanDesign｜相關案例',
-  ogTitle: 'JuanDesign｜相關案例',
+  ogTitle: 'JuanDesign｜',
   description: '麒麟室內設計官方網站屬於品牌形象型網站，整體規劃完善且具層次感，突顯設計公司的專業與高端形象。',
   ogDescription: '麒麟室內設計官方網站屬於品牌形象型網站，整體規劃完善且具層次感，突顯設計公司的專業與高端形象。',
-  ogImage: 'https://juandesign.tw/favicon.ico/chilindesign-banner.png',
+  ogImage: '/chilindesign-banner.png',
   twitterCard: 'summary_large_image',
 })
 </script>
