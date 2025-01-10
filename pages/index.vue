@@ -165,6 +165,7 @@ import itemImg_05 from "../assets/img/img-case-05.png";
 import itemImg_06 from "../assets/img/img-case-06.png";
 import itemImg_07 from "../assets/img/img-case-07.png";
 import itemImg_08 from "../assets/img/img-case-08.png";
+import itemImg_09 from "assets/img/img-case-09.png";
 
 register();
 
@@ -173,15 +174,6 @@ const onProgress = (e) => {
   const [swiper, progress] = e.detail;
 };
 
-// useSeoMeta({
-//   title: 'JuanDesign｜打造屬於你的網站',
-//   ogTitle: 'JuanDesign-打造屬於你的網站',
-//   description: '提供高質感網站設計，擁有多元化客製方案，樹立獨一無二的品牌',
-//   ogDescription: '提供高質感網站設計，擁有多元化客製方案，樹立獨一無二的品牌',
-//   ogImage: 'https://juandesign.tw/favicon.ico',
-//   twitterCard: 'summary_large_image',
-// })
-
 const type = [
   {
     href: '/case/laundry',
@@ -189,6 +181,14 @@ const type = [
     alt:"新光白洗衣店LINE@預約訂單",
     src: itemImg_07,
     item_01: '2025/1',
+    item_02: '整合LINE@與Google Sheet，實現自動訂單管理。訂單資訊自動記錄，商家即時查閱，透過LINE Notify即時接收通知。客戶同步收到預約確認，提升服務體驗與信任感。',
+  },
+  {
+    href: '/case/chilindesign',
+    title: '麒麟室內設計官方網站',
+    alt:"麒麟室內設計官方網站",
+    src: itemImg_09,
+    item_01: '2024/10',
     item_02: '整合LINE@與Google Sheet，實現自動訂單管理。訂單資訊自動記錄，商家即時查閱，透過LINE Notify即時接收通知。客戶同步收到預約確認，提升服務體驗與信任感。',
   },
   {

@@ -14,7 +14,7 @@
       </div>
     </section>
     <section class="flex justify-center bg-tag">
-      <div class="container p-6 lg:p-8 grid grid-cols-1 lg:grid-cols-2 gap-y-6">
+      <div class="container p-6 lg:py-8 lg:px-0 grid grid-cols-1 lg:grid-cols-2 gap-x-6">
         <ul class="list-[square] pl-4 leading-8">
           <li>時程：2024/10</li>
           <li>範圍：UI設計、前端頁面開發、試算功能、網站架設及自訂義網域</li>
@@ -46,8 +46,8 @@
           </ul>
           <ul class="list-[square] pl-4 leading-8">
             <h3 class="font-bold mb-4">相關技術</h3>
-            <li>Figma(mockup、prototype)</li>
-            <li>html、css、js、bootstrap</li>
+            <li>Figma</li>
+            <li>HTML、CSS、JS、Bootstrap</li>
             <li>AWS、Godaddy</li>
           </ul>
           <ul class="list-[square] pl-4 leading-8">

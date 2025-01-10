@@ -15,7 +15,7 @@
       </div>
     </section>
     <section class="flex justify-center bg-tag">
-      <div class="container p-6 lg:p-8 grid grid-cols-1 lg:grid-cols-2 gap-y-6">
+      <div class="container p-6 lg:py-8 lg:px-0 grid grid-cols-1 lg:grid-cols-2 gap-x-6">
         <ul class="list-[square] pl-4 leading-8">
           <li>時程：2025/1</li>
           <li>範圍：開發預約收送通知功能</li>

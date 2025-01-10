@@ -31,11 +31,11 @@
       </div>
     </section>
     <section class="flex justify-center bg-tag">
-      <div class="container p-6 lg:p-8 grid grid-cols-1 lg:grid-cols-2 gap-y-6">
+      <div class="container p-6 lg:py-8 lg:px-0 grid grid-cols-1 lg:grid-cols-2 gap-x-6">
         <ul class="list-[square] pl-4 leading-8">
           <li>舉辦單位：六角學院、交通部聯合</li>
           <li>時程：2021/11</li>
-          <li>使用技術：Figma、Zeplin、HTML、CSS、Vue</li>
+          <li>相關技術：Figma、Zeplin、HTML、CSS、Vue</li>
         </ul>
         <ul class="list-[square] pl-4 leading-8">
           <li>The F2E：
@@ -70,7 +70,7 @@
           <img src="../../assets/img/transfree-img-01.png"/>
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6">
             <div class="flex flex-col">
-              <h2 class="color-title font-bold my-8">API 資源分配</h2>
+              <h2 class="color-title font-bold my-8">資源分配 API</h2>
               <p>
                 在確認需求功能後，為確保開發流程順利進行，應先對現有資源進行初步評估與妥善分配。全面掌握可用的系統、平台及硬體資源，並選擇最優解決方案，以提升整體開發效率與成果。</p>
             </div>
@@ -85,7 +85,7 @@
           <h2 class="color-title font-bold my-8">設計準則 Guideline</h2>
           <p>
             網站整體配色以明亮風格為核心，旨在營造舒適且無壓的查詢環境，降低使用者在尋找資訊時的焦慮感。我們精選高辨識度色系，確保不同公車狀態與文字資訊均能清晰呈現。透過適當的字體大小與色彩區分，使關鍵資訊一目了然，即使在視覺負擔較高的場景下，依然能確保流暢且直觀的操作體驗。</p>
-          <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6">
             <img alt="API(資源分配)" class="mt-8 sm:mt-0" src="../../assets/img/transfree-img-04.png"/>
             <div class="flex flex-col">
               <h2 class="color-title font-bold my-8">LOGO</h2>
@@ -94,8 +94,8 @@
                 TransFree為從Trans及Free為發想，希望使用者能自由地暢遊，融合星球地標的元素，表達行動能夠無拘束地到達使用者想去的目的地。</p>
             </div>
           </div>
-          <h2 class="color-title font-bold my-8">Mockup-Web(768px以上)</h2>
-          <div class="lg:p-8 grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-8">
+          <h2 class="color-title font-bold my-8">網頁版 Web</h2>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-8">
             <ul class="list-[square] pl-4 leading-8">
               <li><h3 class="font-bold mb-4">公車動態查詢，出行更輕鬆</h3></li>
               <img src="../../assets/img/transfree-img-06.png"/>
@@ -122,8 +122,8 @@
             </ul>
           </div>
 
-          <h2 class="color-title font-bold my-8">Mockup-Mobile(768px以下)</h2>
-          <div class="lg:p-8 grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-8">
+          <h2 class="color-title font-bold my-8">手機版 Mobile</h2>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-8">
             <ul class="list-[square] pl-4 leading-8">
               <li><h3 class="font-bold mb-4">公車搜尋更直覺，動態快速直達</h3></li>
               <img class="shadow" src="../../assets/img/transfree-img-10.png"/>

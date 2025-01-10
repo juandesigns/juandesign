@@ -151,11 +151,11 @@
                    href="/case">相關案例</a>
                 有更詳細介紹及展示。
               </p>
-              <p>若是想要查看更多案例、近期案例，可直接聯繫我們！</p>
+              <p>如需了解更多案例或查看最新項目，歡迎直接與我們聯繫！</p>
             </div>
           </template>
           <template #QA-4>
-            <div class="flex grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
+            <div class="grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
               <p>請先準備以下報價資料，能夠加速報價過程</p>
               <ul class="list-[square] pl-4 leading-8">
                 <li>需要採用哪些服務？(網頁設計/功能開發/網域/fb交談按鈕/line@)</li>
