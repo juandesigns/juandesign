@@ -18,7 +18,7 @@
             @progress="onProgress"
         >
           <swiper-slide class="mb-10 object-cover">
-            <img class="hidden md:block" src="../../assets/img/lotsoscrum-banner-01.png"/>
+            <img class="hidden md:block" src="../../assets/img/lotsoscrum-banner-01.jpg"/>
             <img class="block md:hidden" src="../../assets/img/img-case-05.png"/>
           </swiper-slide>
           <swiper-slide class="mb-10 object-cover">
