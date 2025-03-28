@@ -37,30 +37,30 @@
             RWD自適應多裝置包含手機、平板、網頁
           </p>
         </div>
-        <hr class="my-10"/>
-        <div class="flex flex-col">
-          <h1>FB Messenger 交談按鈕外掛</h1>
-          <div class="flex grid grid-cols-1 lg:grid-cols-2">
-            <div class="flex flex-col">
-              <h3 class="font-bold">單一功能 $3000</h3>
-              <ul class="list-[square] pl-4 leading-8">
-                <li>可在網頁中顯示出可以直接與粉絲專頁對話</li>
-                <li>需提供粉絲專頁帳號、正式網域進行設定</li>
-                <li>可提供客製化調整模板</li>
-                <li>工作天：預計 3 天</li>
-                <li>保固：後續線上教學服務2天</li>
-              </ul>
-              <p class="mt-8 font-bold">優點：</p>
-              <ul class="list-disc pl-4 leading-8">
-                <li>讓訪客直接與粉絲專頁直接聯絡</li>
-                <li>增加訪客互動與訪客留存率</li>
-                <li>提高下次再行銷的機會</li>
-              </ul>
-            </div>
-            <img alt="FB Messenger交談按鈕" class="mt-8 sm:mt-0 max-w-xs" src="../../assets/img/img_fb_btn.png">
-          </div>
+<!--        <hr class="my-10"/>-->
+<!--        <div class="flex flex-col">-->
+<!--          <h1>FB Messenger 交談按鈕外掛</h1>-->
+<!--          <div class="flex grid grid-cols-1 lg:grid-cols-2">-->
+<!--            <div class="flex flex-col">-->
+<!--              <h3 class="font-bold">單一功能 $3000</h3>-->
+<!--              <ul class="list-[square] pl-4 leading-8">-->
+<!--                <li>可在網頁中顯示出可以直接與粉絲專頁對話</li>-->
+<!--                <li>需提供粉絲專頁帳號、正式網域進行設定</li>-->
+<!--                <li>可提供客製化調整模板</li>-->
+<!--                <li>工作天：預計 3 天</li>-->
+<!--                <li>保固：後續線上教學服務2天</li>-->
+<!--              </ul>-->
+<!--              <p class="mt-8 font-bold">優點：</p>-->
+<!--              <ul class="list-disc pl-4 leading-8">-->
+<!--                <li>讓訪客直接與粉絲專頁直接聯絡</li>-->
+<!--                <li>增加訪客互動與訪客留存率</li>-->
+<!--                <li>提高下次再行銷的機會</li>-->
+<!--              </ul>-->
+<!--            </div>-->
+<!--            <img alt="FB Messenger交談按鈕" class="mt-8 sm:mt-0 max-w-xs" src="../../assets/img/img_fb_btn.png">-->
+<!--          </div>-->
 
-        </div>
+<!--        </div>-->
       </div>
     </section>
     <TheContact/>

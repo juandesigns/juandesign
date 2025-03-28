@@ -137,7 +137,7 @@
                     class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
                     href="/service/uiux">網站架設及域名服務</a>
                 </li>
-                <li>需要Fb交談按鈕 或 Line@機器人建置，請參照 <a
+                <li>需要Line@機器人建置，請參照 <a
                     class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
                     href="/service/uiux">品牌經營與推廣服務</a>
                 </li>
@@ -158,7 +158,7 @@
             <div class="grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
               <p>請先準備以下報價資料，能夠加速報價過程</p>
               <ul class="list-[square] pl-4 leading-8">
-                <li>需要採用哪些服務？(網頁設計/功能開發/網域/fb交談按鈕/line@)</li>
+                <li>需要採用哪些服務？(網頁設計/功能開發/網域/line@)</li>
                 <li>若有網頁開發功能，請詳細說明需求</li>
                 <li>若有網站架設及域名需求 ，請選擇「客製化域名」或「免費域名」</li>
                 <li>開發或設計是否有指定技術或工具？</li>
@@ -195,7 +195,7 @@
                     class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
                     href="/service/uiux">網站架設及域名服務</a>
                 </li>
-                <li>需要Fb交談按鈕 或 Line@機器人建置，請參照 <a
+                <li>需要Line@機器人建置，請參照 <a
                     class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
                     href="/service/uiux">品牌經營與推廣服務</a>
                 </li>

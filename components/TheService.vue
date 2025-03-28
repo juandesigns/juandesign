@@ -65,7 +65,7 @@ const type = [
     alt:'品牌經營與推廣',
     src: itemImg_05,
     item_01: 'LINE@BOT 建立',
-    item_02: 'FB messenger 交談功能',
+    item_02: 'LINE@官方帳號 建立',
   },
 ]
 </script>
