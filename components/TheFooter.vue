@@ -48,7 +48,7 @@
     </div>
     <div class="footer-copyright h5">
       <div class="container text-center">
-        Copyright © 2024 JuanDesign
+        Copyright © 2025 JuanDesign
       </div>
     </div>
   </footer>
