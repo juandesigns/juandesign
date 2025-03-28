@@ -102,13 +102,12 @@ const state = ref({
 
 
 async function submit(event: FormSubmitEvent<Schema>) {
-  const message = `
-  收到信息了！
-  姓名：${event.data.name}
-  聯絡信箱：${event.data.email}
-  主旨：${event.data.title}
-  訊息：${event.data.content}
-  `
+  const message = `收到信息了！
+姓名：${event.data.name}
+聯絡信箱：${event.data.email}
+主旨：${event.data.title}
+訊息：${event.data.content}
+`
 
   const data = {
     message: message
