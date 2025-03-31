@@ -1,6 +1,6 @@
 <template>
   <main class="service">
-    <TheBanner :title="'服務項目'" :description="'各項目服務報價說明及範圍'"/>
+<!--    <TheBanner class="banner-page-2" :title="'服務項目'" :description="'各項目服務報價說明及範圍'"/>-->
     <TheService/>
     <TheContact/>
   </main>

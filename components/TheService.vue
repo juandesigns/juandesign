@@ -8,7 +8,7 @@
         </div>
         <p class="en-txt">SERVICE</p>
       </div>
-      <div class="flex flex-wrap justify-end w-80 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="flex-wrap justify-end w-80 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         <div v-for="file in type" :key="file.title">
           <TheImgContent :href="file.href" :src="file.src" :alt="file.alt" :title="file.title" :item_01="file.item_01"
                          :item_02="file.item_02"/>

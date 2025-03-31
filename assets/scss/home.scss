@@ -61,6 +61,12 @@
   background-position: center top;
   opacity: .8;
   justify-content: center;
+  //&.banner-page-2{
+  //  background-image: url("./assets/img/banner-page-2.jpg");
+  //}
+  //&.banner-page-3{
+  //  background-image: url("./assets/img/banner-page-3.png");
+  //}
   @include lg() {
     height: 320px;
   }
@@ -111,19 +117,16 @@
   .h1 {
     color: $color-primary;
     line-height: 72px;
-    letter-spacing: 7.2px;
+    letter-spacing: 8px;
 
     &:first-child {
       color: $color-title;
-      margin-bottom: 80px;
+      margin-bottom: 40px;
     }
 
     @include lg() {
-      letter-spacing: 4px;
+      letter-spacing: 6px;
       line-height: 48px;
-      &:first-child {
-        margin-bottom: 40px;
-      }
     }
   }
 }
@@ -364,17 +367,19 @@
   font-size: 72px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
+  line-height: 72px;
   writing-mode: vertical-lr;
   text-orientation: upright;
   opacity: .5;
   @include lg() {
     font-size: 48px;
+    line-height: 48px;
     writing-mode: unset;
     text-orientation: upright;
   }
   @include sm() {
     font-size: 36px;
+    line-height: 36px;
   }
 }
 

@@ -1,6 +1,6 @@
 <template>
   <main class="case">
-    <TheBanner :title="'相關案例'" :description="'過往經驗與案例說明'"/>
+<!--    <TheBanner class="banner-page-3" :title="'相關案例'" :description="'過往經驗與案例說明'"/>-->
     <section class="case-block flex flex-col items-center">
       <div class="container flex flex-col">
         <div class="flex flex-row justify-between items-center">
