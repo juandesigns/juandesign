@@ -24,8 +24,8 @@ definePageMeta({
 })
 
 useSeoMeta({
-  title: 'JuanDesign｜打造屬於你的網站',
-  ogTitle: 'JuanDesign-打造屬於你的網站',
+  title: 'JuanDesign｜量身打造您的專屬網站',
+  ogTitle: 'JuanDesign-量身打造您的專屬網站',
   description: '提供高質感網站設計，擁有多元化客製方案，樹立獨一無二的品牌',
   ogDescription: '提供高質感網站設計，擁有多元化客製方案，樹立獨一無二的品牌',
   ogImage: 'https://juandesign.tw/favicon.ico',

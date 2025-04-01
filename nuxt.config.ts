@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   css: ['~/assets/scss/index.scss'],
   app:{
       head: {
-        title: 'JuanDesign｜打造屬於你的網站',
+        title: 'JuanDesign｜量身打造您的專屬網站',
         meta: [
           { charset: 'utf-8' },
           { name: 'viewport', content: 'width=device-width, initial-scale=1' },

@@ -29,7 +29,7 @@
     <section class="inner-block flex justify-center">
       <div class="container">
         <h2 class="color-title font-bold my-8">整體色調</h2>
-        <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6">
           <div class="flex flex-col">
             <ul class="list-[square] pl-4 leading-8">
               <li>主色沿用相同色碼</li>
@@ -40,7 +40,7 @@
           <img alt="整體色調" class="mt-8 sm:mt-0" src="../../assets/img/a11y-img-01.png"/>
         </div>
         <h2 class="color-title font-bold my-8">整體字級</h2>
-        <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6">
           <div class="flex flex-col">
             <ul class="list-[square] pl-4 leading-8">
               <li>標體文字：20-24字級</li>
@@ -53,7 +53,7 @@
           <img alt="整體字級" class="mt-8 sm:mt-0" src="../../assets/img/a11y-img-02.png"/>
         </div>
         <h2 class="color-title font-bold my-8">功能導覽及登入頁</h2>
-        <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6">
           <div class="flex flex-col">
             <ul class="list-[square] pl-4 leading-8">
               <li>新增圖示加強辨別</li>

@@ -95,7 +95,7 @@
                     close-icon="i-heroicons-minus min-w-[24px] w-6 h-6"
                     multiple>
           <template #QA-1>
-            <div class="flex grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
+            <div class="grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
               <p>可以透過以下方式聯繫我們</p>
               <ul class="list-[square] pl-4 leading-8">
                 <li>Facebook：Juan Design
@@ -122,7 +122,7 @@
             </div>
           </template>
           <template #QA-2>
-            <div class="flex grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
+            <div class="grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
               <p>我們有提供以下服務，可依照需求進行選擇：</p>
               <ul class="list-[square] pl-4 leading-8">
                 <li>網頁設計、或者已有設計稿需要切版，請參照
@@ -145,7 +145,7 @@
             </div>
           </template>
           <template #QA-3>
-            <div class="flex grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
+            <div class="grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
               <p>過往相關作品及案例，請參照
                 <a class="border-b-2 border-red-300 text-red-400 pr-1 font-bold hover:text-[#B38F8AFF] hover:border-[#B38F8AFF] transition duration-300"
                    href="/case">相關案例</a>
@@ -174,12 +174,12 @@
             </div>
           </template>
           <template #QA-5>
-            <div class="flex grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
+            <div class="grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
               <p>會的，我們會提供合約，需要雙方簽署，保障雙方權益，若業主已有準備合約，可依照業主所提供合約進行簽約，若沒有，將會以由我們提供，同時在簽約過程當中若有需要補充條款，可在討論過程當中提出。</p>
             </div>
           </template>
           <template #QA-6>
-            <div class="flex grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
+            <div class="grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
               <p>有的，合約當中也會註明各項保固天數及範圍，會依照合約原訂範圍進行保固，若需要處理非保固範圍內問題，將會認定為新需求，依對應服務進行報價。</p>
               <p>服務項目中有各項服務保固天數：</p>
               <ul class="list-[square] pl-4 leading-8">
@@ -203,22 +203,22 @@
             </div>
           </template>
           <template #QA-7>
-            <div class="flex grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
+            <div class="grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
               <p>目前工作室尚未提供發票服務，但可配合勞報單。</p>
             </div>
           </template>
           <template #QA-8>
-            <div class="flex grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
+            <div class="grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
               <p>完成簽約後需要支付訂金，訂金為總金額1/2，案件完成交付後才會收取尾款，若業主有固定訂金比例金額，也可以在簽署合約過程中提出。</p>
             </div>
           </template>
           <template #QA-9>
-            <div class="flex grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
+            <div class="grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
               <p>我們提供台新銀行以匯款方式進行收取訂金及尾款。</p>
             </div>
           </template>
           <template #QA-10>
-            <div class="flex grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
+            <div class="grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
               <p>在完成製作時，我們也會進行測試，包含多裝置RWD自適應(手機、平板、電腦)、跨瀏覽器測試，測試完成後提供給業主進行驗收。
               </p>
               <ul class="list-[square] pl-4 leading-8">
@@ -228,7 +228,7 @@
             </div>
           </template>
           <template #QA-11>
-            <div class="flex grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
+            <div class="grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
               <ul class="list-[square] pl-4 leading-8">
                 <li>若是在保固天數內且原先範圍將會提供免費技術支援</li>
                 <li>若是已超出保固天數或非保固範圍，可直接聯繫我們提供修改需求，依照需求類別對應服務項目進行報價。</li>
@@ -242,7 +242,7 @@
             </div>
           </template>
           <template #QA-12>
-            <div class="flex grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
+            <div class="grid gap-y-4 flex-col text-gray-900 text-base p-4 bg-[#FAF6F3] rounded-sm shadow">
               <p>業主驗收完成後需於5日內進行尾款支付，以匯款方式至我們所提供指定台新帳戶。
               </p>
             </div>

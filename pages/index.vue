@@ -4,8 +4,8 @@
       <section class="banner-block flex justify-center">
         <div class="container">
           <div class="flex flex-col">
-            <h1>打造你的專屬網站<br/><span class="h2">準時負責 <br class="mobile"/>重視品質 <br class="mobile"/> 價格合理</span></h1>
-            <p class="h4">
+            <h1>量身打造您的專屬網站<br/><span class="h2 font-medium">準時負責 <br class="mobile"/>重視品質 <br class="mobile"/> 價格合理</span></h1>
+            <p class="h3">
               我們用心對待每一位客戶<br/>
               為您打造品牌專屬識別度<br/>
               客製方案多元選擇<br/>
@@ -148,7 +148,6 @@
       </section>
       <TheContact/>
     </main>
-    <!--    <NuxtLink to="/service">To service page</NuxtLink>-->
 
   </div>
 </template>

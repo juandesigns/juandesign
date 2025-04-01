@@ -76,7 +76,7 @@
         <div class="flex flex-col grid gap-y-6 mt-8">
 
           <h2 class="color-title font-bold my-8">三、功能設計說明</h2>
-          <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6">
             <div class="flex flex-col">
               <h3 class="font-bold mb-8">登入前後首頁</h3>
               <ul class="list-[square] pl-4 leading-8">
@@ -87,7 +87,7 @@
             </div>
             <img alt="登入前後首頁" class="mt-8 sm:mt-0" src="../../assets/img/enterprise-img-07.png"/>
           </div>
-          <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6">
             <div class="flex flex-col">
               <h3 class="font-bold my-8">帳務查詢</h3>
               <ul class="list-[square] pl-4 leading-8">
@@ -98,7 +98,7 @@
             <img alt="帳務查詢" class="mt-8 sm:mt-0" src="../../assets/img/enterprise-img-08.png"/>
           </div>
 
-          <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6">
             <div class="flex flex-col">
               <h3 class="font-bold my-8">金融牌告</h3>
               <ul class="list-[square] pl-4 leading-8">

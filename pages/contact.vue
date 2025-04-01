@@ -1,6 +1,6 @@
 <template>
   <main class="question">
-    <TheBanner :title="'聯絡我們'" :description="'我們擁有專業技術，實現你的想法'"/>
+    <TheBanner :title="'聯絡我們'" :description="'我們擁有專業技術，實現您的想法'"/>
     <section class="inner-block flex flex-col items-center">
       <div class="container grid grid-cols-1 sm:grid-cols-2 gap-y-6 gap-x-6">
         <div class="flex flex-col">
@@ -32,7 +32,7 @@
             <li>官網 | 點選右下角按鈕，立即聯繫</li>
           </ul>
         </div>
-        <div class="flex flex-col grid gap-y-6 max-w-md">
+        <div class="flex-col grid gap-y-6 max-w-md">
           <h1>聯絡表單</h1>
           <UForm
               ref="form"

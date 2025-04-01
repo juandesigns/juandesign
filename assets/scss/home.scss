@@ -32,7 +32,7 @@
       line-height: 84px;
       color: $color-title;
       padding-bottom: 120px;
-      letter-spacing: 2px;
+      letter-spacing: 4px;
       text-align: center;
       @include lg() {
         padding-bottom: 40px;
@@ -41,7 +41,7 @@
       }
     }
 
-    .h4 {
+    .h3 {
       text-align: center;
       line-height: 48px;
       @include lg() {
@@ -117,7 +117,7 @@
   .h1 {
     color: $color-primary;
     line-height: 72px;
-    letter-spacing: 8px;
+    letter-spacing: 10px;
 
     &:first-child {
       color: $color-title;
@@ -125,7 +125,7 @@
     }
 
     @include lg() {
-      letter-spacing: 6px;
+      letter-spacing: 8px;
       line-height: 48px;
     }
   }
@@ -185,7 +185,7 @@
 
   .en-txt {
     padding-top: 80px;
-    letter-spacing: 4px;
+    letter-spacing: 6px;
     @include lg() {
       padding-top: 0;
     }
@@ -242,10 +242,6 @@
 
   .en-txt {
     writing-mode: unset;
-    letter-spacing: 16px;
-    @include lg() {
-      letter-spacing: 12px;
-    }
   }
 
   @include lg() {
@@ -321,10 +317,6 @@
 
   .en-txt {
     writing-mode: unset;
-    letter-spacing: 16px;
-    @include lg() {
-      letter-spacing: 12px;
-    }
   }
 
   .img-content {
@@ -363,23 +355,25 @@
 
 .en-txt {
   color: $color-primary;
-  font-family: Caudex;
   font-size: 72px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 72px;
   writing-mode: vertical-lr;
   text-orientation: upright;
   opacity: .5;
+  letter-spacing: 16px;
   @include lg() {
     font-size: 48px;
     line-height: 48px;
     writing-mode: unset;
     text-orientation: upright;
+    letter-spacing: 12px;
   }
   @include sm() {
     font-size: 36px;
     line-height: 36px;
+    letter-spacing: 8px;
   }
 }
 

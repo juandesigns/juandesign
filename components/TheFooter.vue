@@ -4,7 +4,7 @@
       <div class="footer-warp">
         <div class="footer-1">
           <img width="121" src="../assets/img/img-logo-w.svg" alt="JuanDesign">
-          <p>打造專屬的網站</p>
+          <p class="font-medium mt-1">打造專屬的網站</p>
         </div>
         <div class="footer-2">
           <h3 class="footer-title">相關社群</h3>

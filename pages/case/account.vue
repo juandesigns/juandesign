@@ -3,7 +3,7 @@
     <TheBanner :title="'相關案例'" :description="'數位存款帳戶線上開戶'"/>
     <section class="inner-block flex flex-col items-center">
       <div class="container">
-        <div class="flex flex-col grid gap-y-6">
+        <div class="flex-col grid gap-y-6">
           <h1>數位存款帳戶線上開戶</h1>
           <p>優化數位線上開戶，客戶認為整體太死板沒有數位化的感覺，訴求重新規劃流程及風格，新風格介面設計以簡潔、互動、動態呈現，提高互動性、親切印象。</p>
           <img src="../../assets/img/account-banner.png"/>
@@ -98,7 +98,7 @@
             </ul>
           </div>
           <h2 class="color-title font-bold mt-8">五、視覺風格設計</h2>
-          <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6">
             <div class="flex flex-col">
               <h3 class="font-bold my-8">圖文說明</h3>
               <ul class="list-[square] pl-4 leading-8">
@@ -108,7 +108,7 @@
             </div>
             <img alt="圖文說明" class="mt-8 sm:mt-0" src="../../assets/img/account-img-05.png">
           </div>
-          <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6">
             <div class="flex flex-col">
               <h3 class="font-bold my-8">問候語</h3>
               <ul class="list-[square] pl-4 leading-8">
@@ -118,7 +118,7 @@
             </div>
             <img alt="問候語" class="mt-8 sm:mt-0" src="../../assets/img/account-img-06.png">
           </div>
-          <div class="flex grid grid-cols-1 gap-x-6 gap-y-8">
+          <div class="grid grid-cols-1 gap-x-6 gap-y-8">
             <div class="flex flex-col">
               <h3 class="font-bold my-8">多元顯示欄位</h3>
               <ul class="list-[square] pl-4 leading-8">
@@ -127,14 +127,14 @@
             </div>
             <img alt="多元顯示欄位" class="mt-8 sm:mt-0" src="../../assets/img/account-img-07.png">
           </div>
-          <div class="flex grid grid-cols-1 gap-x-6 gap-y-8">
+          <div class="grid grid-cols-1 gap-x-6 gap-y-8">
             <div class="flex flex-col">
               <h3 class="font-bold my-8">RWD自適應裝置</h3>
             </div>
             <img alt="RWD自適應裝置" src="../../assets/img/account-img-09.png">
           </div>
           <h2 class="color-title font-bold mt-8">六、UI操作畫面</h2>
-          <div class="flex grid grid-cols-1 gap-x-6 gap-y-8">
+          <div class="grid grid-cols-1 gap-x-6 gap-y-8">
             <div class="flex flex-col">
               <h3 class="font-bold my-8">Prototype</h3>
               <ul class="list-[square] pl-4 leading-8">
@@ -147,7 +147,7 @@
                     src="https://xd.adobe.com/embed/361b1586-b8f7-4e4e-a2e9-8e7ff4ae7cc0-6348/" frameborder="0"
                     allowfullscreen=""></iframe>
           </div>
-          <div class="flex grid grid-cols-1 gap-x-6 gap-y-8">
+          <div class="grid grid-cols-1 gap-x-6 gap-y-8">
             <div class="flex flex-col">
               <h3 class="font-bold my-8">Guideline</h3>
             </div>

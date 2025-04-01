@@ -41,7 +41,7 @@
           </ul>
         </div>
         <h2 class="color-title font-bold my-8">理財族群版本</h2>
-        <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6">
           <div class="flex flex-col">
             <ul class="list-[square] pl-4 leading-8">
               <li>針對的族群來推出不同的理財資訊，更能貼近用戶情境</li>
@@ -51,7 +51,7 @@
           <iframe width="320" height="700" src="https://xd.adobe.com/embed/ee0028b4-29c0-42c8-858d-9d3557922f8a-bb53/"
                   frameborder="0" allowfullscreen=""></iframe>
         </div>
-        <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 mt-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 mt-8">
           <div class="flex flex-col">
             <ul class="list-[square] pl-4 leading-8">
               <h3 class="color-title font-bold my-8">青年創業，挺你自己當頭家</h3>
@@ -64,12 +64,12 @@
               <li>說明：守護財富讓用戶安心就是銀行最大的使命。</li>
             </ul>
           </div>
-          <div class="flex grid grid-cols-2 gap-x-6 gap-y-6">
+          <div class="grid grid-cols-2 gap-x-6 gap-y-6">
             <img alt="青年創業" class="mt-8 sm:mt-0" src="../../assets/img/login-img-01.png"/>
             <img alt="財產安心" class="mt-8 sm:mt-0" src="../../assets/img/login-img-02.png"/>
           </div>
         </div>
-        <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 mt-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 mt-8">
           <div class="flex flex-col">
             <ul class="list-[square] pl-4 leading-8">
               <h3 class="color-title font-bold my-8">奔向高利，外幣高利活存</h3>
@@ -82,12 +82,12 @@
               <li>說明：數位用戶數量逐年在增加，展現重視數位化的趨勢，推廣快速開戶便利服務</li>
             </ul>
           </div>
-          <div class="flex grid grid-cols-2 gap-x-6 gap-y-6">
+          <div class="grid grid-cols-2 gap-x-6 gap-y-6">
             <img alt="奔向高利" class="mt-8 sm:mt-0" src="../../assets/img/login-img-03.png"/>
             <img alt="數位帳戶隨手開戶超快速" class="mt-8 sm:mt-0" src="../../assets/img/login-img-04.png"/>
           </div>
         </div>
-        <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 mt-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 mt-8">
           <div class="flex flex-col">
             <ul class="list-[square] pl-4 leading-8">
               <h3 class="color-title font-bold my-8">創造財富，永續經營</h3>
@@ -95,12 +95,12 @@
               <li>說明：不論是各個族群想要創造財富的同時，能持續的陪伴才是最重要的</li>
             </ul>
           </div>
-          <div class="flex grid grid-cols-1 gap-x-6 gap-y-6">
+          <div class="grid grid-cols-1 gap-x-6 gap-y-6">
             <img alt="創造財富，永續經營" class="w-1/2 mt-8 sm:mt-0" src="../../assets/img/login-img-05.png"/>
           </div>
         </div>
         <h2 class="color-title font-bold my-8">社會責任版本</h2>
-        <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6">
           <div class="flex flex-col">
             <ul class="list-[square] pl-4 leading-8">
               <li>以針對不同社會責任，努力推廣不同領域，呈現多元樣貌</li>
@@ -110,7 +110,7 @@
           <iframe width="320" height="700" src="https://xd.adobe.com/embed/26a45271-a9eb-4c06-b985-f08d4d98e3cf-73f7/"
                   frameborder="0" allowfullscreen=""></iframe>
         </div>
-        <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 mt-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 mt-8">
           <div class="flex flex-col">
             <ul class="list-[square] pl-4 leading-8">
               <h3 class="color-title font-bold my-8">樂活安養</h3>
@@ -123,12 +123,12 @@
               <li>說明：提供完整治理及金融指數，建置安心穩健金融體系</li>
             </ul>
           </div>
-          <div class="flex grid grid-cols-2 gap-x-6 gap-y-6">
+          <div class="grid grid-cols-2 gap-x-6 gap-y-6">
             <img alt="樂活安養" class="mt-8 sm:mt-0" src="../../assets/img/login-img-06.png"/>
             <img alt="公司治理評鑑" class="mt-8 sm:mt-0" src="../../assets/img/login-img-07.png"/>
           </div>
         </div>
-        <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 mt-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 mt-8">
           <div class="flex flex-col">
             <ul class="list-[square] pl-4 leading-8">
               <h3 class="color-title font-bold my-8">扶植球隊</h3>
@@ -141,12 +141,12 @@
               <li>說明：將用於綠色投資計畫或其相關放款的融資工具，其投資計畫之範圍包括氣候、環保、節能、減碳等。</li>
             </ul>
           </div>
-          <div class="flex grid grid-cols-2 gap-x-6 gap-y-6">
+          <div class="grid grid-cols-2 gap-x-6 gap-y-6">
             <img alt="扶植球隊" class="mt-8 sm:mt-0" src="../../assets/img/login-img-08.png"/>
             <img alt="永續金融" class="mt-8 sm:mt-0" src="../../assets/img/login-img-09.png"/>
           </div>
         </div>
-        <div class="flex grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 mt-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 mt-8">
           <div class="flex flex-col">
             <ul class="list-[square] pl-4 leading-8">
               <h3 class="color-title font-bold my-8">創減少碳排放量</h3>
@@ -154,7 +154,7 @@
               <li>說明：致力於節能環保，關心人類共同議題，對於社會責任的義務義不容辭</li>
             </ul>
           </div>
-          <div class="flex grid grid-cols-1 gap-x-6 gap-y-6">
+          <div class="grid grid-cols-1 gap-x-6 gap-y-6">
             <img alt="減少碳排放量" class="w-1/2 mt-8 sm:mt-0" src="../../assets/img/login-img-10.png"/>
           </div>
         </div>
